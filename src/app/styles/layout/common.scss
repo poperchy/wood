@@ -1,0 +1,54 @@
+html {
+  transition: 0.3s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "myriadRegular", sans-serif;
+  color: #000000;
+  background: #35dc9b;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+  font: 18px Helvetica, Arial, sans-serif;
+  border: none;
+  background: #1aaf75;
+  color: #fff;
+  padding: 16px 40px;
+  cursor: pointer;
+
+  &:hover {
+    background: #109f67;
+  }
+}
+
+.container {
+  position: relative;
+  max-width: $container;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include tablet {
+    padding: 0 30px;
+  }
+
+  @include mobile {
+    padding: 0 10px;
+  }
+}
