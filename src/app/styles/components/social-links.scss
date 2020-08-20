@@ -1,0 +1,28 @@
+.social-links {
+  &__link {
+    background: #807C73;
+    border-radius: 5px;
+
+    &:hover {
+      filter: drop-shadow(0px 4px 5px rgba(255, 255, 255, 0.5));
+      background: #605C55;
+    }
+
+    &:active {
+      filter: drop-shadow(0px 2px 10px rgba(255, 255, 255, 0.5));
+    }
+
+    &--tg {
+
+    }
+    &--inst {
+
+    }
+    &--vk {
+
+    }
+    &--youtube {
+
+    }
+  }
+}

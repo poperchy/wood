@@ -5,6 +5,18 @@ body {
   color: #000000;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
 h1, h2, h3, h4, h5, h6, p, ul, li {
   padding: 0;
   margin: 0;
@@ -34,20 +46,6 @@ ul {
     border: 1px solid rgba(73, 67, 55, 0.85);
   }
 
-  &--social {
-    background: #807C73;
-    border-radius: 5px;
-
-    &:hover {
-      filter: drop-shadow(0px 4px 5px rgba(255, 255, 255, 0.5));
-      background: #605C55;
-    }
-
-    &:active {
-      filter: drop-shadow(0px 2px 10px rgba(255, 255, 255, 0.5));
-    }
-  }
-
   &--link {
     background: rgba(255, 255, 255, 0.65);
     border: 1px solid #494337;
@@ -61,6 +59,14 @@ ul {
       background: rgba(255, 255, 255, 0.95);
     }
   }
+}
+
+.hide {
+  display: none !important;
+}
+
+.picture {
+  display: flex;
 }
 
 .container {
@@ -77,3 +83,18 @@ ul {
     padding: 0 10px;
   }
 }
+
+.hide-tablet {
+  @include tablet1100 {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  display: none !important;
+
+  @include tablet1100 {
+    display: flex !important;
+  }
+}
+

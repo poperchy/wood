@@ -54,3 +54,14 @@
 //     });
 //
 // }();
+
+window.onload = function () {
+    const navList = document.querySelector('.nav-mobile-menu');
+    const menuToggle = document.querySelector('.js-menu-toggle');
+
+    menuToggle.addEventListener('click', function () {
+       navList.classList.toggle('hide');
+    })
+
+
+}();
