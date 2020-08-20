@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/stars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/visually-hidden.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/options.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/svg-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/svg-sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +44,7 @@
       <updated>1597911661055</updated>
       <workItem from="1597911662139" duration="25000" />
       <workItem from="1597911916954" duration="1592000" />
-      <workItem from="1597913734361" duration="20325000" />
+      <workItem from="1597913734361" duration="20694000" />
     </task>
     <servers />
   </component>

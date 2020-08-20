@@ -1,5 +1,6 @@
 .social-links {
   &__link {
+    position: relative;
     background: #807C73;
     border-radius: 5px;
 
@@ -12,15 +13,25 @@
       filter: drop-shadow(0px 2px 10px rgba(255, 255, 255, 0.5));
     }
 
+    &--tg, &--inst, &--vk, &--youtube {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+    }
+
     &--tg {
 
     }
+
     &--inst {
 
     }
+
     &--vk {
 
     }
+
     &--youtube {
 
     }
