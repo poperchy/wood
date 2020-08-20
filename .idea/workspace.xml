@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/fonts/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/fonts/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/options.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wood\wood\src\app\fonts" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,7 +41,7 @@
       <updated>1597911661055</updated>
       <workItem from="1597911662139" duration="25000" />
       <workItem from="1597911916954" duration="1592000" />
-      <workItem from="1597913734361" duration="1867000" />
+      <workItem from="1597913734361" duration="3534000" />
     </task>
     <servers />
   </component>
