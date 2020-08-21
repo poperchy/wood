@@ -26,7 +26,7 @@
                 </li>
             {% endfor %}
         </ul>
-        <div class="nav-mobile-menu hide">
+        <div class="nav-mobile-menu">
             <ul class="nav-mobile-menu__list">
                 {% for navItem in navList3 %}
                     <li class="nav-mobile-menu__item">
@@ -53,9 +53,6 @@
                         'caption' : 'youtube',
                         'modifier' : 'social-links__link--youtube',
                     },
-                    {
-                        'caption' : 'calculator',
-                    },
                 ],
                 }
             %}
@@ -66,9 +63,7 @@
         </div>
         <button class="nav__button js-menu-toggle hide-desktop">
             <span class="visually-hidden">Открыть меню</span>
-            <span class="nav__button-burger nav__button-burger--open"></span>
-            <span class="nav__button-burger nav__button-burger--open"></span>
-            <span class="nav__button-burger nav__button-burger--open"></span>
+            <span class="nav__button-burger"></span>
         </button>
     </nav>
 </header>

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/social-links.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/social-links.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/header.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/header.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/poperchy/wood" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1gM5XYK2YEQfdzhs8TibdbWXIWN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,18 +34,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wood\wood\src\app\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\wood\wood\src\app\images" />
       <recent name="E:\wood\wood\src\app\images\svg_sprite" />
       <recent name="E:\wood\wood\src\app\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wood\wood\src\app\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,6 +59,7 @@
       <workItem from="1597911662139" duration="25000" />
       <workItem from="1597911916954" duration="1592000" />
       <workItem from="1597913734361" duration="20694000" />
+      <workItem from="1597992068696" duration="7975000" />
     </task>
     <servers />
   </component>
@@ -52,13 +67,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1597999418426">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1597999418426" />
     <state x="461" y="224" key="SettingsEditor" timestamp="1597911966291">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1597911966291" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1597935550934">
+    <state x="616" y="270" key="run.anything.popup" timestamp="1597996919253">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597935550934" />
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996919253" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1597996554478">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996554478" />
   </component>
 </project>
