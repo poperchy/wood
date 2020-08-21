@@ -4,8 +4,8 @@
   }
 }
 
-@mixin tablet820() {
-  @media (min-width: $mobileMedia + 1) and (max-width: $tablet) {
+@mixin tablet1100() {
+  @media (max-width: $tablet1100) {
     @content;
   }
 }
