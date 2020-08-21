@@ -46,20 +46,6 @@ ul {
     background: rgba(73, 67, 55, 0.85);
     border: 1px solid rgba(73, 67, 55, 0.85);
   }
-
-  &--link {
-    background: rgba(255, 255, 255, 0.65);
-    border: 1px solid #494337;
-    color: #494337;
-
-    &:hover {
-      background: rgba(255, 255, 255, 0.8);
-    }
-
-    &:active {
-      background: rgba(255, 255, 255, 0.95);
-    }
-  }
 }
 
 .hide {
@@ -74,7 +60,7 @@ ul {
   position: relative;
   max-width: $container;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 
   @include tablet {
     padding: 0 30px;
@@ -82,6 +68,18 @@ ul {
 
   @include mobile {
     padding: 0 10px;
+  }
+
+  &--header {
+    @include mobile {
+      padding: 0;
+    }
+  }
+
+  &--hero {
+    @include mobile {
+      padding: 0;
+    }
   }
 }
 

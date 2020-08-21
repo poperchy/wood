@@ -1,0 +1,156 @@
+.hero {
+  background: url("../images/hero.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 854px;
+  margin-top: -50px;
+
+  @media (min-width: 670px) and(max-width: 1160px) {
+    min-height: 0;
+    height: 367px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    padding-top: 156px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      padding-top: 100px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      padding-top: 50px;
+    }
+  }
+
+  &__slider {
+    width: 50%;
+    height: 764px;
+    margin-bottom: -66px;
+
+    @include mobile {
+      width: 100%;
+    }
+
+
+    &-wrap {
+      width: 100%;
+    }
+  }
+
+  &__card-wrap {
+    width: 50%;
+    margin-top: 128px;
+    margin-bottom: 62px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      margin-top: 50px;
+      margin-bottom: 0;
+    }
+    @include mobile {
+      width: 100%;
+
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 45px 60px 45px;
+    border-radius: 2px;
+    background: #ffffff;
+    margin-left: 100px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      margin-left: 0;
+      padding: 20px 15px 35px 15px;
+      box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+    }
+
+    @include mobile {
+      margin-left: 0;
+    }
+  }
+
+  &__title {
+    font-family: georgia, sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-transform: uppercase;
+    line-height: 90px;
+    letter-spacing: 0.08em;
+    color: #9C8B7F;
+    opacity: 0.15;
+
+    @media (min-width: 670px) and (max-width: 1540px) {
+      font-size: 5.844vw;
+
+    }
+    @media (min-width: 670px) and(max-width: 1160px) {
+      line-height: 60px;
+    }
+
+    &-desc {
+      font-size: 29px;
+      line-height: 37px;
+      font-weight: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      @media (min-width: 670px) and(max-width: 1160px) {
+        font-size: 15px;
+        line-height: 18px;
+        padding-top: 10px;
+        font-weight: bolder;
+      }
+    }
+  }
+
+  &__desc {
+    padding-top: 50px;
+    color: #494337;
+    @media (min-width: 670px) and(max-width: 1160px) {
+      padding-top: 25px;
+      font-size: 18px;
+      line-height: 16px;
+    }
+  }
+
+  &__link-wrap {
+    margin-top: 55px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      maergin-top: 30px;
+    }
+  }
+
+  &__link {
+    position: relative;
+    background: #494337;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 10px 45px 10px 19px;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.2s;
+
+    &:hover {
+      background: rgba(73, 67, 55, 0.85);
+      transition: 0.2s;
+    }
+
+    &:active {
+      background: #494337;
+    }
+
+    &:after {
+      position: absolute;
+      content: '';
+      @include png-sprite($icon-arrow);
+      top: 50%;
+      right: 15px;
+      transform: translateY(-45%);
+      opacity: 1;
+    }
+  }
+}

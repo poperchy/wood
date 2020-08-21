@@ -1,0 +1,53 @@
+{% set hero = {
+    title : 'torwood',
+    titelDesc : 'изделия из дерева на заказ',
+    desc : 'Cоздадим уникальный стиль и атмосферу в вашем помещении.
+            Воплотим любую вашу идею из дерева, поможем с выбором
+            дизайна и материалов! Используем только экологичные
+            покрытия высокого качества. Индивидуальный подход.
+            Доставка РБ, РФ.',
+    link: 'В каталог',
+
+    slide: [
+        {
+            img: '../images/hero-slide1.png',
+            alt: 'Стул',
+        },
+    ]
+} %}
+
+<section class="hero">
+    <div class="container">
+        <div class="hero__wrap">
+            <div class="hero__slider">
+                <div class="hero__slider-wrap">
+                    <section class="slider container--hero">
+                        <div class="slider__wrap">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide swiper-slide--justify">
+                                        {% for hero in hero.slide %}
+                                            <img class="swiper__img" src="{{ hero.img }}" alt="{{ hero.alt }}">
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="hero__card-wrap">
+                <div class="hero__card">
+                    <h1 class="hero__title">{{ hero.title }}</h1>
+                    <h3 class="hero__title-desc">{{ hero.titelDesc }}</h3>
+                    <p class="hero__desc">{{ hero.desc }}</p>
+                    <div class="hero__link-wrap">
+                        <a href="#" class="hero__link">{{ hero.link }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
