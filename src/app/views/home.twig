@@ -20,4 +20,36 @@
         ]
         }
     %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'наши преимущества',
+            mod : 'section-title--advantages',
+        }
+    %}
+    {% include 'components/advantages.twig' with
+        {
+            advantagesItem : [
+            {
+                img : '../images/hand-with-coupon.svg',
+                alt: 'гибкое ценообразовние',
+                desc : 'Гибкое ценообразовние',
+            },
+            {
+                img : '../images/flower.svg',
+                alt: 'экологические материалы',
+                desc : 'Используем только экологически чистые материалы',
+            },
+            {
+                img : '../images/chair.svg',
+                alt: 'уникальный дизайн',
+                desc : 'Делаем мебель с уникальным дизайном',
+            },
+            {
+                img : '../images/man.svg',
+                alt: 'индивидуальный подход',
+                desc : 'Индивидуальный подход к каждому клиенту',
+            },
+        ],
+        }
+    %}
 {% endblock %}

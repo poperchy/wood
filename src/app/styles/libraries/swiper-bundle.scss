@@ -20,6 +20,7 @@
       height: auto;
     }
   }
+
 }
 
 .swiper__img {
@@ -70,6 +71,14 @@
   padding: 0;
   /* Fix of Webkit flickering */
   z-index: 1;
+
+  @media (min-width: 670px) and(max-width: 1160px) {
+    &--hero-tablet {
+      max-height: 514px;
+      max-width: 436px;
+    }
+  }
+
 }
 
 .swiper-container-vertical > .swiper-wrapper {

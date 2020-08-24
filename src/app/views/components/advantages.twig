@@ -1,0 +1,13 @@
+<section class="advantages">
+    <div class="container">
+        <ul class="advantages__list">
+            {% for advantages in advantagesItem %}
+
+                <li class="advantages__item">
+                    <img class="advantages__img" src="{{ advantages.img }}" alt="{{ advantages.alt }}">
+                    <p class="advantages__desc">{{ advantages.desc }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
