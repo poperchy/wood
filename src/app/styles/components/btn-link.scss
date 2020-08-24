@@ -33,9 +33,13 @@
     &:after {
       position: absolute;
       content: '';
-      @include png-sprite($icon-arrow);
+      background: url('../images/arrow-white.svg') no-repeat right;
       top: 50%;
+      width: 14px;
+      height: 8px;
       right: 15px;
+      -webkit-transform: translateY(-45%);
+      -ms-transform: translateY(-45%);
       transform: translateY(-45%);
       opacity: 1;
     }
@@ -66,14 +70,37 @@
     &:active {
       background: rgba(255, 255, 255, 0.8);
     }
+
     &:after {
       position: absolute;
       content: '';
-      @include png-sprite($icon-arrow--black);
+      background: url('../images/arrow.svg') no-repeat right;
       top: 50%;
+      width: 14px;
+      height: 8px;
       right: 15px;
+      -webkit-transform: translateY(-45%);
+      -ms-transform: translateY(-45%);
       transform: translateY(-45%);
       opacity: 1;
+    }
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      font-size: 0;
+      padding: 14px;
+
+      &:after {
+        right: 6px;
+      }
+    }
+
+    @include mobile {
+      font-size: 0;
+      padding: 14px;
+
+      &:after {
+        right: 6px;
+      }
     }
   }
 }

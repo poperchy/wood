@@ -11,6 +11,21 @@
     position: relative;
     width: 480px;
     height: 610px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      width: 213px;
+      height: 276px;
+    }
+
+    @include mobile {
+      width: 260px;
+      height: 337px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
   }
 
   &__desc {
@@ -18,5 +33,15 @@
     font-size: 24px;
     line-height: 29px;
     color: #494337;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    @include mobile {
+      font-size: 16px;
+      line-height: 19px;
+    }
   }
 }
