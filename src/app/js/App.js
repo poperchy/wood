@@ -83,6 +83,6 @@ window.onload = function () {
         },
         
         mousewheel: false,
-        keyboard: true,
+        keyboard: false,
     })
 }();

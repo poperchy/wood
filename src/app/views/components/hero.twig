@@ -25,9 +25,13 @@
                     <h1 class="hero__title">{{ title }}</h1>
                     <h2 class="hero__title-desc">{{ titelDesc }}</h2>
                     <p class="hero__desc">{{ desc }}</p>
-                    <div class="hero__link-wrap">
-                        <a href="#" class="hero__link">{{ link }}</a>
-                    </div>
+                    {% include '../components/btn-link.twig' with
+                        {
+                            modWrap : 'btn-link--brown-wrap',
+                            mod : 'btn-link--brown',
+                            link : 'В каталог',
+                        }
+                    %}
                 </div>
             </div>
         </div>

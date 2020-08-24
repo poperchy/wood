@@ -38,6 +38,7 @@
 
   &__desc {
     align-items: center;
+    width: 72%;
     @include mobile {
       width: 100%;
       padding-left: 10px;

@@ -133,45 +133,7 @@
     }
   }
 
-  &__link-wrap {
-    margin-top: 55px;
 
-    @media (min-width: 670px) and(max-width: 1160px) {
-      maergin-top: 30px;
-    }
 
-    @include mobile {
-      align-self: flex-end;
-    }
-  }
 
-  &__link {
-    position: relative;
-    background: #494337;
-    color: #ffffff;
-    border-radius: 2px;
-    padding: 10px 45px 10px 19px;
-    font-size: 18px;
-    line-height: 22px;
-    transition: 0.2s;
-
-    &:hover {
-      background: rgba(73, 67, 55, 0.85);
-      transition: 0.2s;
-    }
-
-    &:active {
-      background: #494337;
-    }
-
-    &:after {
-      position: absolute;
-      content: '';
-      @include png-sprite($icon-arrow);
-      top: 50%;
-      right: 15px;
-      transform: translateY(-45%);
-      opacity: 1;
-    }
-  }
 }
