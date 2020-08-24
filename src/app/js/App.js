@@ -74,4 +74,15 @@ window.onload = function () {
             body.style.overflow = 'hidden';
         }
     })
+
+    new Swiper('.swiper-container', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        
+        mousewheel: false,
+        keyboard: true,
+    })
 }();
