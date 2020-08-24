@@ -1,0 +1,48 @@
+.section-title {
+  display: flex;
+  justify-content: center;
+
+  &--advantages {
+    margin-top: 230px;
+    margin-bottom: 110px;
+
+    @include mobile {
+      margin-bottom: 40px;
+      margin-top: 60px;
+    }
+  }
+
+  &__title {
+    position: relative;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.15em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #494337;
+
+    &:after, &:before {
+      position: absolute;
+      content: '';
+      width: 5px;
+      height: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #494337;
+      border-radius: 50%;
+    }
+
+    &:before {
+      left: -20px;
+    }
+
+    &:after {
+      right: -20px;
+    }
+
+    @include mobile {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
