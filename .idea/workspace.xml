@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/fonts/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/fonts/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/libraries/swiper-bundle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/libraries/swiper-bundle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/components/hero.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
@@ -39,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wood\wood\src\app\images\png_sprite" />
       <recent name="E:\wood\wood\src\app\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -60,7 +63,7 @@
       <workItem from="1597911916954" duration="1592000" />
       <workItem from="1597913734361" duration="20694000" />
       <workItem from="1597992068696" duration="27288000" />
-      <workItem from="1598250951860" duration="9518000" />
+      <workItem from="1598250951860" duration="14335000" />
     </task>
     <servers />
   </component>
@@ -76,9 +79,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1597911966291" />
-    <state x="616" y="270" key="run.anything.popup" timestamp="1597996919253">
+    <state x="616" y="270" key="run.anything.popup" timestamp="1598266190700">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598266190700" />
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996919253" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1597996554478">
       <screen x="0" y="0" width="1920" height="1160" />

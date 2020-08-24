@@ -18,14 +18,12 @@
                 alt: 'Стул',
             },
         ]
-        }
-    %}
+        } %}
     {% include 'components/section-title.twig' with
         {
             title : 'наши преимущества',
             mod : 'section-title--advantages',
-        }
-    %}
+        } %}
     {% include 'components/advantages.twig' with
         {
             advantagesItem : [
@@ -50,6 +48,51 @@
                 desc : 'Индивидуальный подход к каждому клиенту',
             },
         ],
-        }
-    %}
+        } %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'Каталог товаров',
+            mod : 'section-title--catalog',
+        } %}
+    {% include 'components/catalog.twig' with
+        {
+            catalogItem : [
+            {
+                img : '../images/imagecatalog-1.jpg',
+                alt : 'Стулья и кресла',
+                link : '#',
+                desc : 'Стулья и кресла',
+            },
+            {
+                img : '../images/imagecatalog-2.jpg',
+                alt : 'Тумбы и комоды',
+                link : '#',
+                desc : 'Тумбы и комоды',
+            },
+            {
+                img : '../images/imagecatalog-3.jpg',
+                alt : 'Кровати для детской',
+                link : '#',
+                desc : 'Кровати для детской',
+            },
+            {
+                img : '../images/imagecatalog-4.jpg',
+                alt : 'Кровати и диваны',
+                link : '#',
+                desc : 'Кровати и диваны',
+            },
+            {
+                img : '../images/imagecatalog-5.jpg',
+                alt : 'Столы',
+                link : '#',
+                desc : 'Столы',
+            },
+            {
+                img : '../images/imagecatalog-6.jpg',
+                alt : 'Шкафы и серванты',
+                link : '#',
+                desc : 'Шкафы и серванты',
+            },
+        ]
+        } %}
 {% endblock %}
