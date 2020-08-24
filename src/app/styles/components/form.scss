@@ -13,6 +13,11 @@
     color: #494337;
     font-weight: normal;
     margin-bottom: 20px;
+
+    @include mobile {
+      font-size: 16px;
+      line-height: 19px;
+    }
   }
 
   &__question {
@@ -26,6 +31,10 @@
     @media (min-width: 670px) and(max-width: 1160px) {
       margin-top: 30px;
     }
+    @include mobile {
+      margin-top: 20px;
+      align-self: center;
+    }
   }
 
   &__question-title {
@@ -36,6 +45,11 @@
     margin-bottom: 36px;
 
     @media (min-width: 670px) and(max-width: 1160px) {
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 15px;
+    }
+    @include mobile {
       font-size: 14px;
       line-height: 17px;
       margin-bottom: 15px;
@@ -68,6 +82,9 @@
     margin-bottom: 60px;
 
     @media (min-width: 670px) and(max-width: 1160px) {
+      margin-bottom: 15px;
+    }
+    @include mobile {
       margin-bottom: 15px;
     }
 
@@ -126,6 +143,11 @@
         line-height: 17px;
         padding-left: 25px;
       }
+      @include mobile {
+        font-size: 14px;
+        line-height: 17px;
+        padding-left: 25px;
+      }
     }
 
     .checkbox__text:before {
@@ -141,6 +163,12 @@
       transition: .2s;
 
       @media (min-width: 670px) and(max-width: 1160px) {
+        width: 15px;
+        height: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      @include mobile {
         width: 15px;
         height: 15px;
         top: 50%;
