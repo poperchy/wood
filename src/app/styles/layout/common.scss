@@ -3,7 +3,6 @@ body {
   padding: 0;
   font-family: "ankchiddjgmbalc", sans-serif;
   color: #000000;
-  overflow-x: hidden;
 }
 
 h1 {
@@ -62,6 +61,8 @@ ul {
   margin: 0 auto;
   padding: 0 20px;
 
+
+
   @include tablet {
     padding: 0 30px;
   }
@@ -78,6 +79,11 @@ ul {
 
   &--hero {
     @include mobile {
+      padding: 0;
+    }
+  }
+  @include mobile {
+    &--hero-slide {
       padding: 0;
     }
   }

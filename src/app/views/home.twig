@@ -1,5 +1,23 @@
 {% extends 'layout/base.twig' %}
 {% block title %}Torwood{% endblock %}
 {% block body %}
-    {% include 'components/hero.twig' %}
+    {% include 'components/hero.twig' with
+        {
+            title : 'torwood',
+            titelDesc : 'изделия из дерева на заказ',
+            desc : 'Cоздадим уникальный стиль и атмосферу в вашем помещении.
+            Воплотим любую вашу идею из дерева, поможем с выбором
+            дизайна и материалов! Используем только экологичные
+            покрытия высокого качества. Индивидуальный подход.
+            Доставка РБ, РФ.',
+            link: 'В каталог',
+
+            heroSlide: [
+            {
+                img: '../images/hero-slide1.png',
+                alt: 'Стул',
+            },
+        ]
+        }
+    %}
 {% endblock %}

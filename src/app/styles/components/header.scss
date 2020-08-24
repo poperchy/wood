@@ -104,6 +104,10 @@
       &:before {
         content: none;
       }
+
+      @include mobile {
+        padding-left: 20px;
+      }
     }
   }
 

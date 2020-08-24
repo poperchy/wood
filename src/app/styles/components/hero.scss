@@ -9,6 +9,10 @@
     height: 367px;
   }
 
+  @include mobile {
+    margin-top: 0;
+  }
+
   &__wrap {
     display: flex;
     flex-direction: row;
@@ -20,7 +24,7 @@
 
     @include mobile {
       flex-direction: column;
-      padding-top: 50px;
+      padding-top: 0;
     }
   }
 
@@ -31,6 +35,8 @@
 
     @include mobile {
       width: 100%;
+      margin-bottom: 0;
+      height: auto;
     }
 
 
@@ -50,7 +56,8 @@
     }
     @include mobile {
       width: 100%;
-
+      margin-bottom: 0;
+      margin-top: 0;
     }
   }
 
@@ -64,12 +71,13 @@
 
     @media (min-width: 670px) and(max-width: 1160px) {
       margin-left: 0;
-      padding: 20px 15px 35px 15px;
+      padding: 30px 30px 50px 30px;
       box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
     }
 
     @include mobile {
       margin-left: 0;
+      padding: 20px 20px 30px 20px;
     }
   }
 
@@ -90,6 +98,9 @@
     @media (min-width: 670px) and(max-width: 1160px) {
       line-height: 60px;
     }
+    @include mobile {
+      font-size: 46px;
+    }
 
     &-desc {
       font-size: 29px;
@@ -102,6 +113,9 @@
         line-height: 18px;
         padding-top: 10px;
         font-weight: bolder;
+      }
+      @include mobile {
+
       }
     }
   }
