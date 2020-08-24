@@ -136,6 +136,10 @@
     @media (min-width: 670px) and(max-width: 1160px) {
       maergin-top: 30px;
     }
+
+    @include mobile {
+      align-self: flex-end;
+    }
   }
 
   &__link {
