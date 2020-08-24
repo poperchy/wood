@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/png_sprite/arrow--black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/svg-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/svg-sprite.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/advantages.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/advantages.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images/svg_sprite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -44,8 +41,8 @@
       <recent name="E:\wood\wood\src\app\images\png_sprite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wood\wood\src\app\images\svg_sprite" />
       <recent name="E:\wood\wood\src\app\images" />
+      <recent name="E:\wood\wood\src\app\images\svg_sprite" />
       <recent name="E:\wood\wood\src\app\images\png_sprite" />
       <recent name="E:\wood\wood\src\app\fonts" />
     </key>
@@ -62,7 +59,7 @@
       <workItem from="1597911916954" duration="1592000" />
       <workItem from="1597913734361" duration="20694000" />
       <workItem from="1597992068696" duration="27288000" />
-      <workItem from="1598250951860" duration="16116000" />
+      <workItem from="1598250951860" duration="27730000" />
     </task>
     <servers />
   </component>
@@ -78,10 +75,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1597911966291" />
-    <state x="616" y="270" key="run.anything.popup" timestamp="1598266190700">
+    <state x="616" y="270" key="run.anything.popup" timestamp="1598272485694">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598266190700" />
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598272485694" />
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996919253" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1597996554478">
       <screen x="0" y="0" width="1920" height="1160" />

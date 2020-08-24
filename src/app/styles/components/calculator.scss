@@ -1,0 +1,11 @@
+.calculator {
+
+  &__wrap {
+    display: flex;
+    justify-content: center;
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+}

@@ -95,4 +95,16 @@
             },
         ]
         } %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'стоимость работ',
+            mod : 'section-title--calculator',
+        } %}
+    {% include 'components/calculator.twig' %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'процесс изготовления',
+            mod : 'section-title--making',
+        }
+    %}
 {% endblock %}

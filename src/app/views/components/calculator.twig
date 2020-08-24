@@ -1,0 +1,47 @@
+<section class="calculator">
+    <div class="container">
+        <div class="calculator__wrap">
+            {% include '../components/form.twig' with
+                {
+                    question: 'Какой тип мебели вас интересует?',
+                    title : 'Пройдите "Чек лист" и узнайте стоимость работы',
+                    mod : 'form--index',
+                    formAnswer : [
+                    {
+                        elem: 'Тумба',
+                    },
+                    {
+                        elem: 'Кровать',
+                    },
+                    {
+                        elem: 'Шкаф',
+                    },
+                    {
+                        elem: 'Стол',
+                    },
+                ],
+                    formAnswer2 : [
+                        {
+                            elem: 'Предмет интерьера',
+                        },
+                        {
+                            elem: 'Стул',
+                        },
+                        {
+                            elem: 'Комод',
+                        },
+                        {
+                            elem: 'Другое',
+                        },
+                ]
+                },
+                 %}
+            {% include '../components/block-img.twig' with
+                {
+                    mod : 'block-img--calculator',
+                    desc : 'готовы ли вы к покупке мебели из массива?',
+                    question : 'Какой тип мебели вас интересует?',
+                } %}
+        </div>
+    </div>
+</section>
