@@ -1,0 +1,73 @@
+.video-block {
+
+  &__wrap {
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+  &__video {
+    width: 60%;
+    height: 460px;
+
+    &--order {
+      order: 2;
+    }
+  }
+
+  &__desc {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 40px;
+    z-index: 1;
+
+    &--order {
+      padding-left: 0;
+      padding-right: 40px;
+    }
+  }
+
+  &__desc-wrap {
+    position: relative;
+    width: 40%;
+    margin-left: 65px;
+    text-align: left;
+    background: #937342;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:after {
+      position: absolute;
+      content: '';
+      background: url("../images/curved-lines.png") no-repeat right;
+      width: 100%;
+      height: 100%;
+      top: 0;
+    }
+
+    &--order {
+      margin-left: 0;
+      margin-right: 65px;
+      background: #685334;
+      justify-content: center;
+      align-items: flex-end;
+
+      &:after {
+        position: absolute;
+        content: '';
+        background: url("../images/curved-lines2.png") no-repeat left;
+        width: 100%;
+        height: 100%;
+        top: 0;
+      }
+    }
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
