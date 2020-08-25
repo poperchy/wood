@@ -1,0 +1,18 @@
+<div class="gallery-inst">
+    {% include '../components/section-title.twig' with
+        {
+            mod : 'section-title--footer',
+            modTitle : 'section-title__title--footer',
+            title : 'Следите за нами в Instagram',
+        } %}
+    <a class="gallery-inst__link gallery-inst__link--inst" href="{{ linkInst }}">{{ linkInst }}</a>
+    <ul class="gallery-inst__list">
+        {% for galleryInst in galleryItem %}
+            <li class="gallery-inst__item">
+                <a href="{{ galleryInst.link  }}">
+                    <img class="gallery-inst__img" src="{{ galleryInst.img }}" alt="{{ galleryInst.alt }}">
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

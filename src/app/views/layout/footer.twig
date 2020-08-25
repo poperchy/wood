@@ -1,18 +1,92 @@
 <section class="footer">
     <div class="container">
-        <div class="footer__logo">
-            <img class="footer__img" src="" alt="">
-        </div>
-        <div class="footer__content">
-            <div class="footer__contacts">
-                <a href="tel:+375 44 7879898"></a>
-                <a href="tel:+375 44 7879898"></a>
-                <a href="mailto:torwood@gmail.com">
+            <div class="footer__logo">
+                <img class="footer__img" src="{{ logo }}" alt="">
             </div>
-            <div class="footer__instagram"></div>
-            <div class="footer__nav">
-
+            <div class="footer__content">
+                <div class="footer__contacts footer--width">
+                    <div class="footer__contacts-link-wrap">
+                        <a class="footer__contacts-link" href="tel:{{ number1 }}">{{ number1 }}</a>
+                        <a class="footer__contacts-link" href="tel:{{ number2 }}">{{ number2 }}</a>
+                    </div>
+                    <div class="footer__email-wrap">
+                        <a class="footer__email" href="mailto:{{ email }}">{{ email }}</a>
+                    </div>
+                    <div class="footer__social-wrap">
+                        <p class="footer__social-title">Присоединяйтесь:</p>
+                        {% include '../components/social-links.twig' with
+                            {
+                                mod : 'social-links__list--footer',
+                                'socialList' : [
+                                {
+                                    'caption' : 'vk',
+                                    'modifier' : 'social-links__link--vk',
+                                },
+                                {
+                                    'caption' : 'instagram',
+                                    'modifier' : 'social-links__link--inst',
+                                },
+                                {
+                                    'caption' : 'yo  utube',
+                                    'modifier' : 'social-links__link--youtube',
+                                },
+                            ],
+                            } %}
+                    </div>
+                </div>
+                <div class="footer__instagram footer--width">
+                    {% include '../components/gallery-inst.twig' with
+                        {
+                            linkInst : '@torwood.by',
+                            galleryItem : [
+                            {
+                                img : '../images/inst-1.jpg',
+                                alt : 'фото',
+                                link : '#',
+                            },
+                            {
+                                img : '../images/inst-2.jpg',
+                                alt : 'фото',
+                                link : '#',
+                            },
+                            {
+                                img : '../images/inst-3.jpg',
+                                alt : 'фото',
+                                link : '#',
+                            },
+                        ]
+                        } %}
+                </div>
+                <div class="footer__nav footer--width">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">Главная</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">Каталог</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">О нас</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">Блог</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">Отзывы</a>
+                        </li>
+                        <li class="footer__nav-item">
+                            <a class="footer__nav-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+            <div class="footer__developed">
+                <p class="footer__developed-title">Разработика и продвижение</p>
+                <a class="footer__developed-link" href="#">
+                    <img class="footer__developed-img" src="../images/CMbox.svg" alt="">
+                    CMbox</a>
+            </div>
     </div>
 </section>

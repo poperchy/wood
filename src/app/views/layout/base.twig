@@ -72,7 +72,13 @@
 
 {% endblock %}
 {% block footer %}
-    {% include '../layout/footer.twig' %}
+    {% include '../layout/footer.twig' with
+        {   logo : '../images/logo.png',
+            number1 : '+375 44 7879898',
+            number2 : '+375 44 7879898',
+            email : 'torwood@gmail.com',
+        }
+    %}
 {% endblock %}
 {% block scripts %}
     <script src="/js/libs/swiper-bundle.min.js"></script>

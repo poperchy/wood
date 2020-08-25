@@ -1,4 +1,20 @@
 .social-links {
+
+  &__list--footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__list--footer &__item {
+    margin-right: 10px;
+    margin-bottom: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
   &__item {
     position: relative;
     margin-bottom: 10px;
