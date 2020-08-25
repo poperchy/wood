@@ -1,0 +1,45 @@
+<div class="form__wrap">
+    <div class="form__container">
+        <h4 class="form__title">{{ title }}</h4>
+        <form action="#" class="form {{ mod }}">
+            <div class="form__progress">
+                <span class="form__progress-item form__progress-item--active"></span>
+                <span class="form__progress-item"></span>
+                <span class="form__progress-item"></span>
+                <span class="form__progress-item"></span>
+                <span class="form__progress-item"></span>
+            </div>
+            <div class="form__question">
+                <h5 class="form__question-title">{{ question }}</h5>
+                <div class="form__checkbox-wrap">
+                    <div class="form__checkbox">
+                        {% for formQuestion in formAnswer %}
+                            <label>
+                                {% include '../components/input.twig' with
+                                    {
+                                        type : 'checkbox',
+                                    } %}
+                                <span class="checkbox__text">{{ formQuestion.elem }}</span>
+                            </label>
+                        {% endfor %}
+                    </div>
+                    <div class="form__checkbox">
+                        {% for formQuestion in formAnswer2 %}
+                            <label>
+                                {% include '../components/input.twig' with
+                                    {
+                                        type : 'checkbox',
+                                    } %}
+                                <span class="checkbox__text">{{ formQuestion.elem }}</span>
+                            </label>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="form__question-btn">
+                    <button class="btn btn-link--brown">Далее</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

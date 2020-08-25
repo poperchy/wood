@@ -71,7 +71,9 @@
 {% block body %}
 
 {% endblock %}
-
+{% block footer %}
+    {% include '../layout/footer.twig' %}
+{% endblock %}
 {% block scripts %}
     <script src="/js/libs/swiper-bundle.min.js"></script>
     <script src="/js/libraries.js"></script>
