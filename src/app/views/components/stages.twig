@@ -1,0 +1,22 @@
+<section class="stages">
+    <div class="container">
+        <div class="stages__wrap">
+            <ul class="stages__list">
+                {% for stages in stagesItem %}
+                    <li class="stages__item">
+                        <img class="stages__img" src="{{ stages.img }}" alt="{{ stages.alt }}">
+                        <p class="stages__desc">{{ stages.desc }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+            <ul class="stages__list">
+                {% for stages in stagesItem2 %}
+                    <li class="stages__item">
+                        <img class="stages__img" src="{{ stages.img }}" alt="{{ stages.alt }}">
+                        <p class="stages__desc">{{ stages.desc }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

@@ -130,4 +130,43 @@
             mod : 'section-title--stages',
         }
     %}
+
+    {% include 'components/stages.twig' with
+        {
+            stagesItem : [
+            {
+                img : '../images/pencil.svg',
+                desc : 'Разработка дизайна',
+                alt : 'Разработка дизайна',
+            },
+            {
+                img : '../images/ruler.svg',
+                desc : 'Выбор материала',
+                alt : 'Выбор материала',
+            },
+            {
+                img : '../images/abacus.svg',
+                desc : 'Расчет стоимости',
+                alt : 'Расчет стоимости',
+            },
+        ],
+            stagesItem2 : [
+            {
+                img : '../images/card.svg',
+                desc : 'Оплата',
+                alt : 'Оплата',
+            },
+            {
+                img : '../images/chisel.svg',
+                desc : 'Изготовление',
+                alt : 'Изготовление',
+            },
+            {
+                img : '../images/sofa.svg',
+                desc : 'Доставка',
+                alt : 'Доставка',
+            },
+        ],
+        }
+    %}
 {% endblock %}
