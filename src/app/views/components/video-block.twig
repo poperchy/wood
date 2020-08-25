@@ -1,0 +1,15 @@
+<section class="video-block">
+    <div class="container">
+        {% for videoBlock in videoItem %}
+            <div class="video-block__wrap">
+                <div  class="video-block__video {{ videoBlock.modIframe }}">
+                    <iframe src="https://www.youtube.com/embed/{{ videoBlock.idVideo }}" frameborder="0"
+                            allowfullscreen="true"></iframe>
+                </div>
+                <div class="video-block__desc-wrap {{ videoBlock.modWrapDesc }}">
+                    <p class="video-block__desc {{ videoBlock.modDesc }}">{{ videoBlock.desc }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

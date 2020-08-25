@@ -107,4 +107,27 @@
             mod : 'section-title--making',
         }
     %}
+    {% include 'components/video-block.twig' with
+        {
+            videoItem : [
+            {
+                idVideo : 'rlWMDYpI7fM',
+                desc : 'Воплотим любую<br> вашу идею из<br> дерева',
+            },
+            {
+                idVideo : 'rlWMDYpI7fM',
+                desc : 'Ручная работа<br> придает мебели<br> особую теплоту',
+                modWrapDesc : 'video-block__desc-wrap--order',
+                modIframe : 'video-block__video--order',
+                modDesc : 'video-block__desc--order',
+            },
+        ]
+        }
+    %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'этапы работы',
+            mod : 'section-title--stages',
+        }
+    %}
 {% endblock %}
