@@ -169,4 +169,34 @@
         ],
         }
     %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'полезные статьи',
+            mod : 'section-title--useful-articles',
+        }
+    %}
+    {% include 'components/useful-articles.twig' with
+        {
+            usefulArticlesItem : [
+            {
+                img : '../images/articles1.jpg',
+                alt : 'Как создать дизайн интерьера со вкусом?',
+                desc : 'Как создать дизайн интерьера со вкусом?',
+                link : '#',
+            },
+            {
+                img : '../images/articles2.jpg',
+                alt : 'Чем покрывают изделия из дерева?',
+                desc : 'Чем покрывают изделия из дерева?',
+                link : '#',
+            },
+            {
+                img : '../images/articles3.jpg',
+                alt : 'Уход за изделиями из дерева',
+                desc : 'Уход за изделиями из дерева',
+                link : '#',
+            },
+        ]
+        }
+    %}
 {% endblock %}

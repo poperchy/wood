@@ -1,0 +1,35 @@
+.useful-articles {
+  margin-bottom: 100px;
+
+  &__wrap {
+    display: flex;
+  }
+
+  &__desc-wrap {
+    display: flex;
+    margin: 40px 15px 10px 30px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 480px;
+    padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-right: 15px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__desc {
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #494337;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+}
