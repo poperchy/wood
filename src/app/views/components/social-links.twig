@@ -1,7 +1,7 @@
 <div class="social-links">
     <ul class="social-links__list {{ mod }}">
         {% for socialItem in socialList %}
-            <li class="social-links__item">
+            <li class="social-links__item {{ socialItem.modItem }}">
                 <a href="{{ socialItem.link }}" class="social-links__link {{ socialItem.modifier }}">
                     <span class="visually-hidden">{{ socialItem.caption }}</span>
                 </a>

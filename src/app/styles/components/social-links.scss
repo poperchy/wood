@@ -1,5 +1,19 @@
 .social-links {
 
+  &__wrap {
+    position: fixed;
+    top: 30%;
+    right: 20px;
+    width: 40px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      display: none;
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+
   &__list--footer {
     display: flex;
     flex-direction: row;
@@ -20,6 +34,12 @@
     margin-bottom: 10px;
     width: 36px;
     height: 36px;
+    background: #fff;
+    border-radius: 5px;
+
+    &--calculator {
+      margin-top: 60px;
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -41,11 +61,8 @@
       filter: drop-shadow(0px 2px 10px rgba(255, 255, 255, 0.5));
     }
 
-    &--tg, &--inst, &--vk, &--youtube {
+    &--tg, &--inst, &--vk, &--youtube, &--calculator {
       position: absolute;
-      //top: 50%;
-      //right: 50%;
-      //transform: translate(-50%, -50%);
       opacity: 0.8;
       transition: 0.2s;
     }
@@ -65,5 +82,13 @@
     &--youtube {
       @include png-sprite($icon-youtube);
     }
+
+    &--calculator {
+      @include png-sprite($icon-calculator);
+      background-position: -103px -20px;
+      width: 36px;
+      height: 36px;
+    }
+
   }
 }
