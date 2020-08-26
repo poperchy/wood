@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/goods-tables-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/product-card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/catalog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/calculator.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/calculator.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/product-card.twig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/product-catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/product-catalog.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <workItem from="1597992068696" duration="27288000" />
       <workItem from="1598250951860" duration="28661000" />
       <workItem from="1598337705535" duration="26632000" />
-      <workItem from="1598424044920" duration="17144000" />
+      <workItem from="1598424044920" duration="20570000" />
     </task>
     <servers />
   </component>
@@ -91,9 +90,10 @@
     </state>
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598272485694" />
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996919253" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1597996554478">
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1598446890281">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598446890281" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996554478" />
   </component>
 </project>

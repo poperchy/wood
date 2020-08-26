@@ -109,6 +109,19 @@
             },
         ],
         } %}
+    {% include 'components/pagination.twig' %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'стоимость работ',
+            mod : 'section-title--cost',
+        } %}
+    {% include 'components/calculator.twig' %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'уход за мебелью',
+            mod : 'section-title--cost',
+        } %}
+
     <div class="social-links__wrap social-links__wrap--product-catalog">
         {% include 'components/social-links.twig' with
             {

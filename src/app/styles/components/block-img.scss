@@ -36,6 +36,31 @@
     }
   }
 
+  &--chair {
+    background: url("../images/calc-chair.jpg") no-repeat center;
+
+    background-size: cover;
+    max-width: 755px;
+    height: 100%;
+    display: flex;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      width: auto;
+      max-height: 333px;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      background: url("../images/image-calc-shadow.png") no-repeat center;
+      background-size: cover;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
   &__desc {
     z-index: 1;
     font-size: 22px;
