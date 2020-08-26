@@ -2,8 +2,13 @@
 
   &__wrap {
     position: fixed;
-    top: 30%;
+    top: 35%;
     right: 20px;
+    z-index: 100;
+
+    &--product-catalog {
+    top: 20%;
+    }
 
     @media (min-width: 670px) and(max-width: 1160px) {
       display: none;

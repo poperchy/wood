@@ -1,0 +1,13 @@
+<div class="container container--catalog-nav">
+    <div class="catalog-nav">
+        <ul class="catalog-nav__list">
+            {% for catalogNav in catalogItem %}
+                <li class="catalog-nav__item">
+                    <a class="catalog-nav__link" href="{{ catalogNav.link }}">
+                        <img class="catalog-nav__img" src="{{ catalogNav.img }}" alt="{{ catalogNav.alt }}">
+                        {{ catalogNav.linkTitle }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

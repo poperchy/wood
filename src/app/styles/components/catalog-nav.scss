@@ -1,0 +1,89 @@
+.catalog-nav {
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+  margin-top: -45px;
+  border-radius: 2px;
+  position: relative;
+  background: #ffffff;
+  z-index: 30;
+  height: 100px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  ::-webkit-scrollbar { width:auto; height: 6px;}
+  ::-webkit-scrollbar-track {  background-color: #999;}
+  ::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+  ::-webkit-scrollbar-thumb { height: 50px; background-color: #a0a0a0; border-radius: 3px;}
+  ::-webkit-scrollbar-corner { background-color: #999;}
+  ::-webkit-resizer { background-color: #666;}
+
+  @media (min-width: 670px) and(max-width: 1160px) {
+    margin-top: 0;
+
+  }
+
+  @include mobile {
+
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    white-space: nowrap;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding-bottom: 0;
+      justify-content: normal;
+      align-items: normal;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    @include mobile {
+      overflow-x: scroll;
+      padding-bottom: 0;
+      overflow-y: hidden;
+      justify-content: normal;
+      align-items: normal;
+
+      &:last-child {
+        padding-right: 10px;
+      }
+    }
+  }
+
+  &__item {
+    margin-right: 40px;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+    font-size: 18px;
+    line-height: 24px;
+    color: #494337;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    @include mobile {
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    &:hover {
+      opacity: 0.6;
+      transition: 0.2s;
+    }
+  }
+}

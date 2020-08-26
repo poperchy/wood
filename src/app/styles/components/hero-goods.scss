@@ -1,0 +1,12 @@
+.hero-goods {
+  background: url("../images/goods-chairs.jpg")no-repeat center;
+  background-size: cover;
+  height: 500px;
+  margin-top: -50px;
+
+  @media (min-width: 670px) and(max-width: 1160px) {
+    height: 260px;
+    background: url("../images/goods-chairs.jpg")no-repeat center;
+    background-size: cover;
+  }
+}

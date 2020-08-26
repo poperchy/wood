@@ -2,4 +2,139 @@
 {% block title %}Стулья{% endblock %}
 {% block body %}
     {% include 'components/hero-goods.twig' %}
+    {% include 'components/catalog-nav.twig' with
+        {
+            catalogItem : [
+            {
+                img : '../images/chair-cat.svg',
+                alt : 'Стулья и кресла',
+                linkTitle : 'Стулья и кресла',
+                link : '#',
+            },
+            {
+                img : '../images/curbstone-cat.svg',
+                alt : 'Тумбы и комоды',
+                linkTitle : 'Тумбы и комоды',
+                link : '#',
+            },
+            {
+                img : '../images/bed-cat.svg',
+                alt : 'Кровати и диваны',
+                linkTitle : 'Кровати и диваны',
+                link : '#',
+            },
+            {
+                img : '../images/tables-cat.svg',
+                alt : 'Столы',
+                linkTitle : 'Столы',
+                link : '#',
+            },
+            {
+                img : '../images/cabinets-cat.svg',
+                alt : 'Шкафы и серванты',
+                linkTitle : 'Шкафы и серванты',
+                link : '#',
+            },
+            {
+                img : '../images/beds-children-cat.svg',
+                alt : 'Кровати для детей',
+                linkTitle : 'Кровати для детей',
+                link : '#',
+            },
+        ],
+        } %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'стулья и кресла',
+            mod : 'section-title--useful-chairs',
+        } %}
+
+    {% include 'components/catalog.twig'  with
+        {
+            mod : 'catalog__item--product-catalog',
+            catalogItem : [
+            {
+                img : '../images/Group284.jpg',
+                alt : 'Кухонные стулья из березы',
+                link : '../#',
+                desc : 'Кухонные стулья из березы',
+            },
+            {
+                img : '../images/Group286.jpg',
+                alt : 'Барные стулья из березы',
+                link : '../#',
+                desc : 'Барные стулья из березы',
+            },
+            {
+                img : '../images/Group287.jpg',
+                alt : 'Барный стул из дуба',
+                link : '../#',
+                desc : 'Барный стул из дуба',
+            },
+            {
+                img : '../images/Group300.jpg',
+                alt : 'Барный стул из дуба',
+                link : '../#',
+                desc : 'Барный стул из дуба',
+            },
+            {
+                img : '../images/Group221.jpg',
+                alt : 'Обеденные стулья  из дуба',
+                link : '../#',
+                desc : 'Обеденные стулья  из дуба',
+            },
+            {
+                img : '../images/Group301.jpg',
+                alt : 'Обеденные стулья  из дуба',
+                link : '../#',
+                desc : 'Обеденные стулья  из дуба',
+            },
+            {
+                img : '../images/Group301.jpg',
+                alt : 'Табуретки из березы',
+                link : '../#',
+                desc : 'Табуретки из березы',
+            },
+            {
+                img : '../images/Group303.jpg',
+                alt : 'Обеденные стулья  из дуба',
+                link : '../#',
+                desc : 'Обеденные стулья  из дуба',
+            },
+            {
+                img : '../images/Group302.jpg',
+                alt : 'Обеденные стулья  из дуба',
+                link : '../#',
+                desc : 'Обеденные стулья  из дуба',
+            },
+        ],
+        } %}
+    <div class="social-links__wrap social-links__wrap--product-catalog">
+        {% include 'components/social-links.twig' with
+            {
+                'socialList' : [
+                {
+                    'caption' : 'telegram',
+                    'modifier' : 'social-links__link--tg',
+                },
+                {
+                    'caption' : 'instagram',
+                    'modifier' : 'social-links__link--inst',
+                },
+                {
+                    'caption' : 'vk',
+                    'modifier' : 'social-links__link--vk',
+                },
+                {
+                    'caption' : 'youtube',
+                    'modifier' : 'social-links__link--youtube',
+                },
+                {
+                    'caption' : 'calculator',
+                    'modifier' : 'social-links__link--calculator',
+                    'modItem' : 'social-links__item--calculator',
+                },
+            ],
+            } %}
+    </div>
 {% endblock %}

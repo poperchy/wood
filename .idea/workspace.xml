@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/components/catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/catalog.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/product-catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/product-catalog.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images/png_sprite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -46,8 +48,9 @@
       <recent name="E:\wood\wood\src\app\images\png_sprite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wood\wood\src\app\images\png_sprite" />
       <recent name="E:\wood\wood\src\app\images" />
+      <recent name="E:\wood\wood\src\app\styles\components" />
+      <recent name="E:\wood\wood\src\app\images\png_sprite" />
       <recent name="E:\wood\wood\src\app\images\svg_sprite" />
       <recent name="E:\wood\wood\src\app\fonts" />
     </key>
@@ -66,7 +69,7 @@
       <workItem from="1597992068696" duration="27288000" />
       <workItem from="1598250951860" duration="28661000" />
       <workItem from="1598337705535" duration="26632000" />
-      <workItem from="1598424044920" duration="7510000" />
+      <workItem from="1598424044920" duration="17144000" />
     </task>
     <servers />
   </component>

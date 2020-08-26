@@ -62,7 +62,6 @@ ul {
   padding: 0 20px;
 
 
-
   @include tablet {
     padding: 0 30px;
   }
@@ -77,11 +76,21 @@ ul {
     }
   }
 
+  &--catalog-nav {
+    @media (min-width: 670px) and(max-width: 1160px) {
+      padding: 0;
+    }
+    @include mobile {
+      padding: 0;
+    }
+  }
+
   &--hero {
     @include mobile {
       padding: 0;
     }
   }
+
   @include mobile {
     &--hero-slide {
       padding: 0;
