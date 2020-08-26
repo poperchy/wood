@@ -1,15 +1,17 @@
 <div class="useful-articles">
-    <div class="container">
+
         <div class="useful-articles__wrap">
             {% for usefulArticles in usefulArticlesItem %}
                 <article class="useful-articles__item">
                     <img class="useful-articles__img" src="{{ usefulArticles.img }}" alt="{{ usefulArticles.alt }}">
                     <div class="useful-articles__desc-wrap">
                         <p class="useful-articles__desc">{{ usefulArticles.desc }}</p>
-                        <a class="useful-articles__link btn-link--white" href="{{ usefulArticles.link }}">Читать</a>
+                        <div class="useful-articles__link-wrap">
+                            <a class="useful-articles__link btn-link--white" href="{{ usefulArticles.link }}">Читать</a>
+                        </div>
                     </div>
                 </article>
             {% endfor %}
         </div>
-    </div>
+
 </div>
