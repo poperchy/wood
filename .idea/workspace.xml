@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sprites/png-sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/social-links.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/social-links.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/catalog.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wood\wood\src\app\views" />
       <recent name="E:\wood\wood\src\app\images" />
       <recent name="E:\wood\wood\src\app\images\png_sprite" />
     </key>
@@ -61,7 +66,7 @@
       <workItem from="1597992068696" duration="27288000" />
       <workItem from="1598250951860" duration="28661000" />
       <workItem from="1598337705535" duration="26632000" />
-      <workItem from="1598424044920" duration="4585000" />
+      <workItem from="1598424044920" duration="7510000" />
     </task>
     <servers />
   </component>

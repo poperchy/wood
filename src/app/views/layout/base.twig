@@ -67,6 +67,7 @@
             },
         ]
         } %}
+
 {% endblock %}
 {% block body %}
 
@@ -80,6 +81,40 @@
         }
     %}
 {% endblock %}
+
+{% block social %}
+    <div class="social-links__wrap">
+        {% include '../components/social-links.twig' with
+            {
+                'socialList' : [
+                {
+                    'caption' : 'telegram',
+                    'modifier' : 'social-links__link--tg',
+                },
+                {
+                    'caption' : 'instagram',
+                    'modifier' : 'social-links__link--inst',
+                },
+                {
+                    'caption' : 'vk',
+                    'modifier' : 'social-links__link--vk',
+                },
+                {
+                    'caption' : 'youtube',
+                    'modifier' : 'social-links__link--youtube',
+                },
+                {
+                    'caption' : 'calculator',
+                    'modifier' : 'social-links__link--calculator',
+                    'modItem' : 'social-links__item--calculator',
+                },
+            ],
+            }
+        %}
+    </div>
+{% endblock %}
+
+
 {% block scripts %}
     <script src="/js/libs/swiper-bundle.min.js"></script>
     <script src="/js/libraries.js"></script>

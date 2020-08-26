@@ -8,6 +8,20 @@
     padding-bottom: 40px;
   }
 
+  &__link {
+    position: absolute !important;
+    bottom: 24px;
+    right: 14px;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+
+    }
+
+    @include mobile{
+
+    }
+  }
+
   &__item {
     position: relative;
     width: 480px;

@@ -87,7 +87,7 @@
 
     @media (min-width: 670px) and(max-width: 1160px) {
       font-size: 0;
-      padding: 14px;
+      padding: 3px 14px;
 
       &:after {
         right: 6px;
@@ -96,7 +96,7 @@
 
     @include mobile {
       font-size: 0;
-      padding: 14px;
+      padding: 3px 14px;
 
       &:after {
         right: 6px;

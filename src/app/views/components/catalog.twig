@@ -4,13 +4,7 @@
             {% for catalog in catalogItem %}
                 <li class="catalog__item">
                     <img class="catalog__img" src="{{ catalog.img }}" alt="{{ catalog.alt }}">
-                    <a class="catalog__link" href="{{ catalog.link }}"></a>
-                    {% include '../components/btn-link.twig' with
-                        {
-                            modWrap : 'btn-link--white-wrap',
-                            mod : 'btn-link--white',
-                            link : 'Подробнее',
-                        } %}
+                    <a class="catalog__link btn-link--white " href="{{ catalog.link }}">Подробнее</a>
                     <p class="catalog__desc">{{ catalog.desc }}</p>
                 </li>
             {% endfor %}
