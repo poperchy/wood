@@ -62,6 +62,11 @@ window.onload = function () {
     const navBurger = document.querySelector('.nav__button-burger');
     const navLink = document.querySelectorAll('.nav__link--mobile');
 
+    const btnShowAll = document.querySelector('.show-all__wrap');
+    const btnShowAllLink = document.querySelector('.show-all__title');
+    const bulletedList = document.querySelector('.bulleted-list__list');
+    const showAllArrow = document.querySelector('.show-all__img');
+
     menuToggle.addEventListener('click', function (e) {
         e.preventDefault();
         if (navList.classList.contains('nav-mobile-menu--active')) {
@@ -81,8 +86,18 @@ window.onload = function () {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-        
+
         mousewheel: false,
         keyboard: false,
+    })
+
+    btnShowAll.addEventListener('click', function (e) {
+        e.preventDefault();
+        let bulletedList = document.getElementsByClassName('bulleted-list__item');
+        for (let i=0;i<bulletedList.length;i+=1){
+            bulletedList[i].style.display = 'block';
+        }
+        btnShowAllLink.textContent = 'Скрыть';
+        showAllArrow.style.transform = 'rotate(-180deg) translateY(50%)';
     })
 }();

@@ -1,3 +1,14 @@
-<section class="bulleted-list">
-
-</section>
+<div class="bulleted-list">
+    <div class="container">
+        <ul class="bulleted-list__list">
+            {% for bulletedList in bulletedListItem %}
+                <li class="bulleted-list__item {{ bulletedList.mod }}">{{ bulletedList.desc }}</li>
+            {% endfor %}
+        </ul>
+        <div class="show-all__wrap">
+            <a class="show-all show-all--bulleted-list" href="#">
+                <span class="show-all__title">Показать ещё</span>
+              <span class="show-all__img"></span></a>
+        </div>
+    </div>
+</div>

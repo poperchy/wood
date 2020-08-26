@@ -31,6 +31,10 @@ ul {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .btn {
   transition: all 0.2s ease-in-out;
   font: 18px Helvetica, Arial, sans-serif;
@@ -109,5 +113,52 @@ ul {
 
   @include tablet1100 {
     display: flex !important;
+  }
+}
+
+.show-all {
+  position: relative;
+  display: none;
+  background: #fff;
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  color: #494337;
+  cursor: pointer;
+
+  &__wrap {
+    position: relative;
+    margin-bottom: 60px;
+  }
+
+  @include mobile {
+    display: inline-block;
+  }
+
+  &__img {
+    position: absolute;
+    background-image: url(../images/small-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(73, 34, 28, 0.4);
+    width: 29px;
+    height: 29px;
+    display: block;
+    border-radius: 2px;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+
+    &:active{
+      background-color: rgba(73, 34, 28, 0.8);
+      transition: 0.2s;
+    }
+  }
+
+  &--bulleted-list {
+
   }
 }
