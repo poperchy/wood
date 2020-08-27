@@ -5,6 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/libraries/swiper-bundle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/libraries/swiper-bundle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/calculator.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/calculator.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +39,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wood\wood\src\app\images" />
+      <recent name="E:\wood\wood\src\app\styles\libraries" />
+      <recent name="E:\wood\wood\src\app\js\libs" />
+      <recent name="E:\wood\wood\src\app\styles\components" />
+      <recent name="E:\wood\wood\src\app\images\png_sprite" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wood\wood\src\app\views" />
       <recent name="E:\wood\wood\src\app\images" />
       <recent name="E:\wood\wood\src\app\images\png_sprite" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wood\wood\src\app\images" />
-      <recent name="E:\wood\wood\src\app\styles\components" />
-      <recent name="E:\wood\wood\src\app\images\png_sprite" />
-      <recent name="E:\wood\wood\src\app\images\svg_sprite" />
-      <recent name="E:\wood\wood\src\app\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +67,7 @@
       <workItem from="1598250951860" duration="28661000" />
       <workItem from="1598337705535" duration="26632000" />
       <workItem from="1598424044920" duration="27267000" />
-      <workItem from="1598510393070" duration="2151000" />
+      <workItem from="1598510393070" duration="13252000" />
     </task>
     <servers />
   </component>
@@ -70,6 +75,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598513602014">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598513602014" />
     <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1598006612691">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -79,6 +88,10 @@
     </state>
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598367519014" />
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1597911966291" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1598517742225">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598517742225" />
     <state x="616" y="270" key="run.anything.popup" timestamp="1598449459645">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
