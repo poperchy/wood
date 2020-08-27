@@ -95,9 +95,16 @@ window.onload = function () {
         e.preventDefault();
         let bulletedList = document.getElementsByClassName('bulleted-list__item');
         for (let i=0;i<bulletedList.length;i+=1){
+
             bulletedList[i].style.display = 'block';
+            btnShowAllLink.textContent = 'Скрыть';
+            showAllArrow.style.transform = 'rotate(-180deg) translateY(50%)';
         }
-        btnShowAllLink.textContent = 'Скрыть';
-        showAllArrow.style.transform = 'rotate(-180deg) translateY(50%)';
+
+        bulletedList[i].style.display = 'none';
     })
+
+
+
+
 }();

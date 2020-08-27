@@ -152,7 +152,7 @@ button {
     transform: translateY(-50%);
     transition: 0.2s;
 
-    &:active{
+    &:active {
       background-color: rgba(73, 34, 28, 0.8);
       transition: 0.2s;
     }
@@ -161,4 +161,8 @@ button {
   &--bulleted-list {
 
   }
+}
+
+.hi {
+  display: block;
 }
