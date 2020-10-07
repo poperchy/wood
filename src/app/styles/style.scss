@@ -13,7 +13,7 @@
 @import "libraries/swiper-bundle";
 @import "layout/common";
 @import "layout/visually-hidden";
-@import "libraries/fotorama.css";
+@import "libraries/jquery.fancybox.min.css";
 
 @import "components/header";
 @import "components/social-links";
@@ -30,13 +30,15 @@
 @import "components/video-block";
 @import "components/stages";
 @import "components/useful-articles";
+@import "components/about-product";
+@import "components/breadcrumbs";
 
 
 @import "components/hero-goods";
 @import "components/catalog-nav";
 @import "components/pagination";
 @import "components/bulleted-list";
-@import "components/gallery-fancybox";
+@import "components/gallery-list";
 
 
 

@@ -43,15 +43,16 @@
             },
         ],
         } %}
-    {% include 'components/section-title.twig' with
-        {
-            title : 'стулья и кресла',
-            mod : 'section-title--useful-chairs',
-        } %}
+{% include 'components/breadcrumbs.twig' %}
+
 
 
     {% include 'components/about-product.twig'%}
-
+    {% include 'components/section-title.twig' with
+        {
+            title : 'стоимость работ',
+            mod : 'section-title--cost',
+        } %}
     {% include 'components/calculator.twig' %}
     {% include 'components/section-title.twig' with
         {

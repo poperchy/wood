@@ -56,24 +56,6 @@
 // }();
 
 window.onload = function () {
-    //
-    // let galleryThumbs = new Swiper('.gallery-thumbs', {
-    //     spaceBetween: 10,
-    //     slidesPerView: 4,
-    //     freeMode: true,
-    //     watchSlidesVisibility: true,
-    //     watchSlidesProgress: true,
-    // });
-    // let galleryTop = new Swiper('.gallery-top', {
-    //     spaceBetween: 10,
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
-    //     thumbs: {
-    //         swiper: galleryThumbs
-    //     }
-    // });
 
 
 
@@ -101,7 +83,7 @@ window.onload = function () {
         }
     })
 
-    new Swiper('.swiper-container', {
+    new Swiper('.swiper-hero', {
         loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
@@ -125,28 +107,86 @@ window.onload = function () {
         bulletedList[i].style.display = 'none';
     })
 
-    // let galleryThumbs = new Swiper('.gallery-thumbs', {
-    //     spaceBetween: 10,
-    //     slidesPerView: 4,
-    //     freeMode: true,
-    //     watchSlidesVisibility: true,
-    //     watchSlidesProgress: true,
-    // });
-    // let galleryTop = new Swiper('.gallery-top', {
-    //     spaceBetween: 10,
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
-    //     thumbs: {
-    //         swiper: galleryThumbs
-    //     }
-    // });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+        spaceBetween: 0,
+        slidesPerView: 3,
+        centeredSlides: true,
+        touchRatio: 0.2,
+        slideToClickedSlide: true,
+        centeredSlidesBounds: true,
+        watchOverflow: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
 
+        breakpoints: {
+            // when window width is >= 320px
+            // 320: {
+            //     slidesPerView: 2,
+            //     spaceBetween: 20
+            // },
+            // // when window width is >= 480px
+            // 480: {
+            //     slidesPerView: 3,
+            //     spaceBetween: 30
+            // },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 3,
+                spaceBetween:25,
+            }
+        },
+        freeMode: true,
+        direction:'vertical',
+    });
+    // galleryTop.controller.control = galleryThumbs;
+    // galleryThumbs.controller.control = galleryTop;
+    var galleryTop = new Swiper('.gallery-top', {
+        watchOverflow: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        zoom: {
+            maxRatio: 5,
+        },
+        preventInteractionOnTransition: true,
+        spaceBetween: 20,
+        effect: 'coverflow',
+        coverflowEffect: {
+            rotate: 30,
+            slideShadows: false,
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            // 320: {
+            //     slidesPerView: 2,
+            //     spaceBetween: 20
+            // },
+            // // when window width is >= 480px
+            // 480: {
+            //     slidesPerView: 3,
+            //     spaceBetween: 30
+            // },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 80,
+            }
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-}();
+        thumbs: {
+            swiper: galleryThumbs,
+        }
+    });
+    galleryTop.on('slideChangeTransitionStart', function() {
+        galleryThumbs.slideTo(galleryTop.activeIndex);
+    });
 
-$( document ).ready(function() {
+    galleryThumbs.on('transitionStart', function(){
+        galleryTop.slideTo(galleryThumbs.activeIndex);
+    });
     $('[data-fancybox="images-gallery"]').fancybox({
         buttons: [
             'slideShow',
@@ -155,139 +195,12 @@ $( document ).ready(function() {
             'fullScreen',
             'close'
         ],
-        thumbs: {
-            autoStart: true
-        }
     });
 
 
-});
+}();
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// JavaScript Document
-function isDevice() {
-    return ((/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase())))
-}
-
-function initZoom(width, height) {
-    $.removeData('#zoom_10', 'elevateZoom');
-    $('.zoomContainer').remove();
-    $('.zoomWindowContainer').remove();
-    $("#zoom_10").elevateZoom({
-        responsive: true,
-        tint: true,
-        tintColour: '#E84C3C',
-        tintOpacity: 0.5,
-        easing: true,
-        borderSize: 0,
-        lensSize: 100,
-        constrainType: "height",
-        loadingIcon: "https://icodefy.com/Tools/iZoom/images/loading.GIF",
-        containLensZoom: false,
-        zoomWindowPosition: 1,
-        zoomWindowOffetx: 20,
-        zoomWindowWidth: width,
-        zoomWindowHeight: height,
-        gallery: 'gallery_pdp',
-        galleryActiveClass: "active",
-        zoomWindowFadeIn: 500,
-        zoomWindowFadeOut: 500,
-        lensFadeIn: 500,
-        lensFadeOut: 500,
-        cursor: "https://icodefy.com/Tools/iZoom/images/zoom-out.png",
-    });
-}
-
-$(document).ready(function() {
-    /* init vertical carousel if thumb image length greater that 4 */
-    if ($("#gallery_pdp a").length > 4) {
-        $("#gallery_pdp a").css("margin", "0");
-        $("#gallery_pdp").rcarousel({
-            orientation: "vertical",
-            visible: 4,
-            width: 105,
-            height: 70,
-            margin: 5,
-            step: 1,
-            speed: 500,
-        });
-        $("#ui-carousel-prev").show();
-        $("#ui-carousel-next").show();
-    }
-    /* Init Product zoom */
-    initZoom(500, 475);
-
-    $("#ui-carousel-prev").click(function() {
-        initZoom(500, 475);
-    });
-
-    $("#ui-carousel-next").click(function() {
-        initZoom(500, 475);
-    });
-
-    // $(".zoomContainer").width($("#zoom_10").width());
-
-    // $("body").delegate(".fancybox-inner .mega_enl", "click", function() {
-    //     $(this).html("");
-    //     $(this).hide();
-    // });
-    // $('#gallery_pdp img').click((e) => {
-    // 	console.log(e)
-    // })
-
-});
-
-$(window).resize(function() {
-    var docWidth = $(document).width();
-    if (docWidth > 769) {
-        initZoom(500, 475);
-    } else {
-        $.removeData('#zoom_10', 'elevateZoom');
-        $('.zoomContainer').remove();
-        $('.zoomWindowContainer').remove();
-        $("#zoom_10").elevateZoom({
-            responsive: true,
-            tint: false,
-            tintColour: '#3c3c3c',
-            tintOpacity: 0.5,
-            easing: true,
-            borderSize: 0,
-            loadingIcon: "https://icodefy.com/Tools/iZoom/images/loading.GIF",
-            zoomWindowPosition: "productInfoContainer",
-            zoomWindowWidth: 330,
-            gallery: 'gallery_pdp',
-            galleryActiveClass: "active",
-            zoomWindowFadeIn: 500,
-            zoomWindowFadeOut: 500,
-            lensFadeIn: 500,
-            lensFadeOut: 500,
-            cursor: "https://icodefy.com/Tools/iZoom/images/zoom-out.png",
-        });
-
-    }
-})
-
-$(document).ready(function() {
-    $("#zoom_10").fancybox();
-});

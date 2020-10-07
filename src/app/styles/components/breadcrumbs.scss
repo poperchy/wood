@@ -1,0 +1,32 @@
+.breadcrumbs {
+  margin-top: 25px;
+  margin-bottom: 60px;
+
+  ul {
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  li a {
+    position: relative;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(73, 67, 55, 0.7);
+
+    &:after {
+      position: absolute;
+      content: '/';
+      right: -10px;
+    }
+  }
+
+  &__active {
+    color: #090907 !important;
+  }
+}

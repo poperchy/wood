@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
 </head>
 <body>
 {% block header %}
@@ -83,12 +84,12 @@
 {% endblock %}
 
 {% block scripts %}
+    <script src="/js/libs/jquery-3.5.1.min.js"></script>
+    <script src="/js/libs/jquery.fancybox.min.js"></script>
     <script src="/js/libs/swiper-bundle.min.js"></script>
     <script src="/js/libraries.js"></script>
     <script src="/js/App.js"></script>
-    <script src="/js/libs/jquery.fancybox.min.js"></script>
-    <script src="/js/libs/fotorama.js"></script>
-    <script src="/js/libs/slick.min.js"></script>
-    {% endblock %}
+
+
 </body>
 </html>
