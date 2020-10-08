@@ -1,0 +1,284 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Стулья{% endblock %}
+{% block body %}
+    {% include 'components/hero-goods.twig' with
+        {
+            url : '../images/about-us/about-hero.jpg',
+            mod : 'hero-goods--about',
+            title : 'TORWOOD',
+            desc : 'о нас',
+            class : 'section-title__title section-title__title--about',
+        } %}
+
+    {% include 'components\breadcrumbs.twig' %}
+    <div class="about-us__about-company">
+        <div class="container">
+            <p>Компания «TORWOOD» cоздаст уникальный стиль и атмосферу в вашем помещении. Мебельная компания «TORWOOD»
+                имеет
+                за своими плечами богатую 20-летнюю историю развития. Бренд «TORWOOD» укреплялся на мебельном рынке год
+                за
+                годом. Компания прошла все этапы становления – от продажи «за прилавком» до крупнейшего предприятия по
+                производству мебели в РБ. </p>
+        </div>
+    </div>
+    {% include 'components/section-title.twig' with
+        {
+            title : 'наши приемущества',
+            mod : 'section-title--cost',
+        } %}
+
+    {% include 'components/advantages.twig' with
+        {
+            advantagesItem : [
+            {
+                img : '../images/hand-with-coupon.svg',
+                alt: 'гибкое ценообразовние',
+                desc : 'Гибкое ценообразовние',
+            },
+            {
+                img : '../images/flower.svg',
+                alt: 'экологические материалы',
+                desc : 'Используем только экологически чистые материалы',
+            },
+            {
+                img : '../images/chair.svg',
+                alt: 'уникальный дизайн',
+                desc : 'Делаем мебель с уникальным дизайном',
+            },
+            {
+                img : '../images/man.svg',
+                alt: 'индивидуальный подход',
+                desc : 'Индивидуальный подход к каждому клиенту',
+            },
+        ],
+        } %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'история основания',
+            mod : 'section-title--cost',
+        } %}
+    <section class="history">
+        <div class="container">
+            <div class="history__wrap">
+                <div class="history__img-wrap">
+                    <img src="../images/about-us/history.jpg" alt="">
+                </div>
+                <div class="history__desc">
+                    <div class="history__desc-wrap">
+                        <p>Компания «TORWOOD» cоздаст уникальный стиль и атмосферу в вашем помещении. Мебельная компания
+                            «TORWOOD» имеет за своими плечами богатую 20-летнюю историю развития. Бренд «TORWOOD»
+                            укреплялся
+                            на
+                            мебельном рынке год за годом. Компания прошла все этапы становления – от продажи «за
+                            прилавком»
+                            до
+                            крупнейшего предприятия по производству мебели в России. </p>
+                        <p>Компания «TORWOOD» cоздаст уникальный стиль и атмосферу в вашем помещении. Мебельная компания
+                            «TORWOOD» имеет за своими плечами богатую 20-летнюю историю развития. Бренд «TORWOOD»
+                            укреплялся
+                            на
+                            мебельном рынке год за годом. Компания прошла все этапы становления – от продажи «за
+                            прилавком»
+                            до
+                            крупнейшего предприятия по производству мебели в России. </p>
+                        <p>Компания «TORWOOD» cоздаст уникальный стиль и атмосферу в вашем помещении. Мебельная компания
+                            «TORWOOD» имеет за своими плечами богатую 20-летнюю историю развития. Бренд «TORWOOD»
+                            укреплялся
+                            на
+                            мебельном рынке год за годом. Компания прошла все этапы становления – от продажи «за
+                            прилавком»
+                            до
+                            крупнейшего предприятия по производству мебели в России. </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include 'components/section-title.twig' with
+        {
+            title : 'фото работ',
+            mod : 'section-title--cost',
+        } %}
+    <div class="about__slider">
+        <div class="container">
+            <div class="swiper-container swiper-about">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-about" href="../images/imagecatalog-1.jpg"><img class="swiper__img"
+                                                                                                 src="../images/imagecatalog-1.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-about" href="../images/imagecatalog-2.jpg"><img class="swiper__img"
+                                                                                                 src="../images/imagecatalog-2.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-about" href="../images/imagecatalog-3.jpg"><img class="swiper__img"
+                                                                                                 src="../images/imagecatalog-3.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-about" href="../images/imagecatalog-4.jpg"><img class="swiper__img"
+                                                                                                 src="../images/imagecatalog-4.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-about" href="../images/imagecatalog-5.jpg"><img class="swiper__img"
+                                                                                                 src="../images/imagecatalog-5.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-about" href="../images/imagecatalog-6.jpg"><img class="swiper__img"
+                                                                                                 src="../images/imagecatalog-6.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                </div>
+                <div class="about__slider-wrap-btn">
+                    <div class="swiper-button-next about-us-btn__next"></div>
+                    <div class="swiper-button-prev about-us-btn__prev"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {% include 'components/section-title.twig' with
+        {
+            title : 'процесс изготовления',
+            mod : 'section-title--cost',
+        } %}
+    {% include 'components/video-block.twig' with
+        {
+            videoItem : [
+            {
+                idVideo : 'rlWMDYpI7fM',
+                desc : 'Воплотим любую<br> вашу идею из<br> дерева',
+            },
+            {
+                idVideo : 'rlWMDYpI7fM',
+                desc : 'Ручная работа<br> придает мебели<br> особую теплоту',
+                modWrapDesc : 'video-block__desc-wrap--order',
+                modIframe : 'video-block__video--order',
+                modDesc : 'video-block__desc--order',
+            },
+        ]
+        } %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'этапы работы',
+            mod : 'section-title--cost',
+        } %}
+    {% include 'components/stages.twig' with
+        {
+            stagesItem : [
+            {
+                img : '../images/pencil.svg',
+                desc : 'Разработка дизайна',
+                alt : 'Разработка дизайна',
+            },
+            {
+                img : '../images/ruler.svg',
+                desc : 'Выбор материала',
+                alt : 'Выбор материала',
+            },
+            {
+                img : '../images/abacus.svg',
+                desc : 'Расчет стоимости',
+                alt : 'Расчет стоимости',
+            },
+        ],
+            stagesItem2 : [
+            {
+                img : '../images/card.svg',
+                desc : 'Оплата',
+                alt : 'Оплата',
+            },
+            {
+                img : '../images/chisel.svg',
+                desc : 'Изготовление',
+                alt : 'Изготовление',
+            },
+            {
+                img : '../images/sofa.svg',
+                desc : 'Доставка',
+                alt : 'Доставка',
+            },
+        ],
+        } %}
+    {% include 'components/section-title.twig' with
+        {
+            title : 'наша мастерская',
+            mod : 'section-title--cost',
+        } %}
+    <div class="about-us__workshop">
+        <div class="container">
+            <div class="parent">
+                <div class="div1">
+                    <a data-fancybox="images-workshop" href="../images/workshop/1.jpg">
+                        <img src="../images/workshop/1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="div2">
+                    <a data-fancybox="images-workshop" href="../images/workshop/2.jpg">
+                        <img src="../images/workshop/2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="div3">
+                    <a data-fancybox="images-workshop" href="../images/workshop/3.jpg">
+                        <img src="../images/workshop/3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="div4">
+                    <a data-fancybox="images-workshop" href="../images/workshop/4.jpg">
+                        <img src="../images/workshop/4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="div5">
+                    <a data-fancybox="images-workshop" href="../images/workshop/5.jpg">
+                        <img src="../images/workshop/5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="div6">
+                    <a data-fancybox="images-workshop" href="../images/workshop/6.jpg">
+                        <img src="../images/workshop/6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="div7">
+                    <a data-fancybox="images-workshop" href="../images/workshop/7.jpg">
+                        <img src="../images/workshop/7.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-links__wrap social-links__wrap--product-catalog">
+        {% include 'components/social-links.twig' with
+            {
+                'socialList' : [
+                {
+                    'caption' : 'telegram',
+                    'modifier' : 'social-links__link--tg',
+                },
+                {
+                    'caption' : 'instagram',
+                    'modifier' : 'social-links__link--inst',
+                },
+                {
+                    'caption' : 'vk',
+                    'modifier' : 'social-links__link--vk',
+                },
+                {
+                    'caption' : 'youtube',
+                    'modifier' : 'social-links__link--youtube',
+                },
+                {
+                    'caption' : 'calculator',
+                    'modifier' : 'social-links__link--calculator',
+                    'modItem' : 'social-links__item--calculator',
+                },
+            ],
+            } %}
+    </div>
+{% endblock %}

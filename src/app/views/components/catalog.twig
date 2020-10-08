@@ -3,8 +3,11 @@
         <ul class="catalog__list">
             {% for catalog in catalogItem %}
                 <li class="catalog__item {{ mod }}">
-                    <img class="catalog__img" src="{{ catalog.img }}" alt="{{ catalog.alt }}">
-                    <a class="catalog__link btn-link--white " href="{{ catalog.link }}">Подробнее</a>
+                    <div class="catalog__item-img-wrap">
+                        <img class="catalog__img" src="{{ catalog.img }}" alt="{{ catalog.alt }}">
+                        <a class="catalog__link btn-link--white " href="{{ catalog.link }}">Подробнее</a>
+                    </div>
+
                     <p class="catalog__desc">{{ catalog.desc }}</p>
                 </li>
             {% endfor %}

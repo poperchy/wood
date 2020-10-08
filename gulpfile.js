@@ -53,7 +53,7 @@ gulp.task('build', gulp.series(
   gulp.parallel('clean'),
   gulp.parallel('iconic'),
   gulp.parallel('png-sprite', 'images:copy', 'fonts:copy', 'svg:sprite', 'svg:inline', 'generate-index'),
-  gulp.parallel('templates', 'styles:build', 'scripts:libraries', 'scripts'),
+  gulp.parallel('images:minify','templates', 'styles:build', 'scripts:libraries', 'scripts'),
   gulp.parallel('dist', 'scripts:build'),
   gulp.parallel('styles:inline', 'scripts:replace'),
   gulp.parallel('styles:critical'),

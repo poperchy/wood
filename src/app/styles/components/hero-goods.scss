@@ -1,12 +1,62 @@
 .hero-goods {
-  background: url("../images/goods-chairs.jpg")no-repeat center;
-  background-size: cover;
   height: 500px;
   margin-top: -50px;
 
+
   @media (min-width: 670px) and(max-width: 1160px) {
     height: 260px;
-    background: url("../images/goods-chairs.jpg")no-repeat center;
-    background-size: cover;
+  }
+  @include mobile {
+    margin-top: 0;
+    height: 184px;
+    margin-bottom: 45px;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+
+    h1 {
+      font-family: Georgia, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 150px;
+      line-height: 90px;
+      color: #FFFFFF;
+      opacity: 0.8;
+      @include tablet1100 {
+        font-size: 60px;
+      }
+      @include mobile{
+        font-size: 28px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  &__desc {
+    color: #FFFFFF;
+    margin-top: 80px;
+    @include tablet1100{
+      margin-top: 40px;
+    }
+    @include mobile{
+      margin-top: 20px;
+    }
+  }
+
+  &--about {
+    height: 737px;
+    @include tablet1100{
+      height: 410px;
+    }
+    @include mobile{
+      height: 247px;
+    }
   }
 }

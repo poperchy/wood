@@ -89,7 +89,7 @@ button {
   }
 
   @include mobile {
-    padding: 0 10px;
+    padding: 0 15px;
   }
 
   &--header {
@@ -183,4 +183,14 @@ button {
 
 .hi {
   display: block;
+}
+
+.swiper-about .swiper-slide {
+  @include mobile{
+    width: 214px !important;
+  }
+}
+.swiper-about .swiper-slide img{
+  width: 100%;
+  height: auto;
 }

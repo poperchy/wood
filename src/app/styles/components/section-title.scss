@@ -48,6 +48,19 @@
       border-radius: 50%;
     }
 
+    &--about{
+      &:after, &:before {
+        position: absolute;
+        content: '';
+        width: 5px;
+        height: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #FFFFFF;
+        border-radius: 50%;
+      }
+    }
+
     &:before {
       left: -20px;
     }

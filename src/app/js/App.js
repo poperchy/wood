@@ -58,7 +58,6 @@
 window.onload = function () {
 
 
-
     const navList = document.querySelector('.nav-mobile-menu');
     const menuToggle = document.querySelector('.js-menu-toggle');
     const body = document.querySelector('body');
@@ -89,15 +88,46 @@ window.onload = function () {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-
         mousewheel: false,
         keyboard: false,
     })
 
+    new Swiper('.swiper-about', {
+        slidesPerView: 3,
+        spaceBetween:30,
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 'auto',
+                loop:true,
+                centeredSlides: true,
+                spaceBetween:10,
+
+
+            },
+            // // when window width is >= 480px
+
+
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            767: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        },
+    })
     btnShowAll.addEventListener('click', function (e) {
         e.preventDefault();
         let bulletedList = document.getElementsByClassName('bulleted-list__item');
-        for (let i=0;i<bulletedList.length;i+=1){
+        for (let i = 0; i < bulletedList.length; i += 1) {
 
             bulletedList[i].style.display = 'block';
             btnShowAllLink.textContent = 'Скрыть';
@@ -120,23 +150,27 @@ window.onload = function () {
 
         breakpoints: {
             // when window width is >= 320px
-            // 320: {
-            //     slidesPerView: 2,
-            //     spaceBetween: 20
-            // },
+            320: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+                direction: 'horizontal',
+            },
             // // when window width is >= 480px
-            // 480: {
-            //     slidesPerView: 3,
-            //     spaceBetween: 30
-            // },
+
+
             // when window width is >= 640px
             640: {
                 slidesPerView: 3,
-                spaceBetween:25,
-            }
+                spaceBetween: 10,
+                direction: 'vertical',
+            },
+            767: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+                direction: 'vertical',
+            },
         },
         freeMode: true,
-        direction:'vertical',
     });
     // galleryTop.controller.control = galleryThumbs;
     // galleryThumbs.controller.control = galleryTop;
@@ -180,14 +214,43 @@ window.onload = function () {
             swiper: galleryThumbs,
         }
     });
-    galleryTop.on('slideChangeTransitionStart', function() {
+    galleryTop.on('slideChangeTransitionStart', function () {
         galleryThumbs.slideTo(galleryTop.activeIndex);
     });
 
-    galleryThumbs.on('transitionStart', function(){
+    galleryThumbs.on('transitionStart', function () {
         galleryTop.slideTo(galleryThumbs.activeIndex);
     });
+
     $('[data-fancybox="images-gallery"]').fancybox({
+        buttons: [
+            'slideShow',
+            'share',
+            'zoom',
+            'fullScreen',
+            'close'
+        ],
+    });
+    $('[data-fancybox="images-about"]').fancybox({
+        buttons: [
+            'slideShow',
+            'share',
+            'zoom',
+            'fullScreen',
+            'close'
+        ],
+    });
+
+    $('[data-fancybox="images-workshop"]').fancybox({
+        buttons: [
+            'slideShow',
+            'share',
+            'zoom',
+            'fullScreen',
+            'close'
+        ],
+    });
+    $('[data-fancybox="images-about"]').fancybox({
         buttons: [
             'slideShow',
             'share',

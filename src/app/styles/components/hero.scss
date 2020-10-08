@@ -1,6 +1,4 @@
 .hero {
-  background: url("../images/hero.jpg") no-repeat center;
-  background-size: cover;
   max-height: 854px;
   margin-top: -50px;
 
@@ -14,6 +12,7 @@
     height: auto;
     max-height: none;
   }
+
 
   &__wrap {
     display: flex;

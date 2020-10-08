@@ -7,6 +7,10 @@
     gap: 60px 50px;
     justify-content: center;
     padding-bottom: 40px;
+
+    @media (max-width: 1160px) {
+      gap: 30px;
+    }
   }
 
   &__link {
@@ -25,24 +29,23 @@
 
   &__item {
     position: relative;
-    width: 480px;
-    height: 610px;
 
-    &--product-catalog {
-      width: 472px;
-      height: 610px;
+    &-img-wrap {
+      width: auto;
+      position: relative;
       margin-bottom: 10px;
+      @media (min-width: 670px) and(max-width: 1160px) {
+        width: 213px;
+        height: auto;
+      }
+
+      @include mobile {
+        width: 260px;
+        height: auto;
+      }
     }
 
-    @media (min-width: 670px) and(max-width: 1160px) {
-      width: 213px;
-      height: 276px;
-    }
 
-    @include mobile {
-      width: 260px;
-      height: 337px;
-    }
   }
 
   &__img {
