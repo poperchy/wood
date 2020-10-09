@@ -38,7 +38,6 @@
 
   &--chair {
     background: url("../images/calc-chair.jpg") no-repeat center;
-
     background-size: cover;
     max-width: 755px;
     height: 100%;
@@ -58,6 +57,18 @@
       right: 0;
       bottom: 0;
       left: 0;
+    }
+  }
+
+  &--bg {
+    background: url("../images/contacts/form-contacts.jpg") no-repeat center;
+    background-size: cover;
+    max-width: 755px;
+    height: 100%;
+    display: flex;
+
+    @media (min-width: 670px) and(max-width: 1160px) {
+      width: auto;
     }
   }
 

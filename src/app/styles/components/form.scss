@@ -6,6 +6,25 @@
     @media (min-width: 670px) and(max-width: 1160px) {
       padding: 2vw 3vw;
     }
+
+  }
+
+  &__container-wrap {
+    padding-top: 80px;
+    padding-left: 7.792vw;
+    padding-right: 7.792vw;
+
+
+    @include mobile {
+      padding-top: 40px;
+      padding-left: 4.792vw;
+      padding-right: 4.792vw;
+    }
+    @media(min-width: 671px) and (max-width: 768px) {
+      padding-top: 40px;
+      padding-left: 4.792vw;
+      padding-right: 4.792vw;
+    }
   }
 
   &__title {
@@ -194,6 +213,73 @@
   &__checkbox-wrap {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__contacts {
+    width: 100%;
+
+    &-btn {
+      margin-top: 20px;
+      margin-bottom: 80px;
+      @media(max-width: 1160px) and (min-width: 670px) {
+        margin-top: 20px;
+      }
+      @include mobile {
+        margin-bottom: 40px;
+      }
+    }
+
+
+    form {
+      max-width: 390px;
+      max-height: 450px;
+    }
+
+    label {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    input {
+      padding: 10px 0 10px 10px;
+      box-sizing: border-box;
+      width: 100%;
+      border-radius: 3px;
+      outline: transparent;
+      border: 1px solid rgba(73, 67, 55, 0.7);
+
+      &::placeholder {
+        color: rgba(73, 67, 55, 0.7);
+        font-size: 16px;
+        padding-left: 10px;
+      }
+
+      &:focus {
+        border: 1px solid rgba(73, 67, 55, 1);
+      }
+    }
+
+    textarea {
+      resize: none;
+      box-sizing: border-box;
+      border-radius: 3px;
+      padding: 10px 0 10px 10px;
+      outline: transparent;
+      border: 1px solid rgba(73, 67, 55, 0.7);
+
+      &::placeholder {
+        color: rgba(73, 67, 55, 0.7);
+        padding: 10px 0 0 10px;
+      }
+
+      &:focus {
+        border: 1px solid rgba(73, 67, 55, 1);
+      }
+    }
+  }
+
+  &__wrap--contacts {
+    margin-right: 30px;
   }
 }
 

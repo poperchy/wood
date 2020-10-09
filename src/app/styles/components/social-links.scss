@@ -7,7 +7,7 @@
     z-index: 100;
 
     &--product-catalog {
-    top: 20%;
+      top: 20%;
     }
 
     @media (min-width: 670px) and(max-width: 1160px) {
@@ -65,15 +65,36 @@
       filter: drop-shadow(0px 2px 10px rgba(255, 255, 255, 0.5));
     }
 
-    &--tg, &--inst, &--vk, &--youtube, &--calculator {
+    &--tg, &--inst, &--vk, &--youtube, &--calculator, &--viber, &--whatsapp, &--telegram, &--instagram, &--vkon, &--yt, {
       position: absolute;
       opacity: 0.8;
       transition: 0.2s;
     }
 
+    &--viber {
+      background: url("../images/contacts/viber.svg");
+    }
+    &--whatsapp {
+      background: url("../images/contacts/whatsaap.svg");
+    }
+
+    &--telegram {
+      background: url("../images/contacts/telegram.svg");
+    }
+    &--instagram {
+      background: url("../images/contacts/instagram.svg");
+    }
+    &--vkon {
+      background: url("../images/contacts/vkon.svg");
+    }
+    &--yt {
+      background: url("../images/contacts/yt.svg");
+    }
+
     &--tg {
       @include png-sprite($icon-tg);
     }
+
 
     &--inst {
       @include png-sprite($icon-inst);

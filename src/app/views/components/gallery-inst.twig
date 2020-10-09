@@ -9,7 +9,7 @@
     <ul class="gallery-inst__list">
         {% for galleryInst in galleryItem %}
             <li class="gallery-inst__item">
-                <a href="{{ galleryInst.link  }}">
+                <a data-fancybox="images-inst" href="{{ galleryInst.link  }}">
                     <img class="gallery-inst__img" src="{{ galleryInst.img }}" alt="{{ galleryInst.alt }}">
                 </a>
             </li>

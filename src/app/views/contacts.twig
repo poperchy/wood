@@ -1,0 +1,169 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Стулья{% endblock %}
+{% block body %}
+    {% include 'components/hero-goods.twig' with
+        {
+            url : '../images/contacts/contacts-hero.jpg',
+            desc : 'контакты',
+            class : 'section-title__title section-title__title--contacts hero-goods__desc--contacts',
+        } %}
+
+    {% include 'components/breadcrumbs.twig' %}
+    <div class="contacts">
+        <div class="container">
+            <div class="contacts__wrap">
+                <div class="contacts__requisites">
+                    <h4>Наши реквизиты:</h4>
+                    <p>ООО “Torwood”</p>
+                    <p>г. Минск, ул Филимонова 1а (мастерская)</p>
+                    <p>Почтовый адрес: 220086, г. Минск ул.</p>
+                    <p>Филимонова 1а, комн 5</p>
+                    <p>р/с BY44454566874514246 в ЗАО “МТБанк БИК</p>
+                    <p>MTBKBY78252</p>
+                    <p>УНП 15456321256</p>
+                </div>
+                <div class="contacts__connection">
+                    <div class="contacts__phones">
+                        <h4>Телефоны:</h4>
+                        <div class="footer__contacts-link-wrap">
+                            <a class="footer__contacts-link" href="tel:+375 44 7879898">+375 44 7879898</a>
+                            <a class="footer__contacts-link" href="tel:+375 44 7879898">+375 44 7879898</a>
+                        </div>
+                        {% include 'components/social-links.twig' with
+                            {
+                                mod : 'social-links__list--footer',
+                                'socialList' : [
+                                {
+                                    'caption' : 'tg',
+                                    'modifier' : 'social-links__link--telegram',
+                                },
+                                {
+                                    'caption' : 'viber',
+                                    'modifier' : 'social-links__link--viber',
+                                },
+                                {
+                                    'caption' : 'whatsapp',
+                                    'modifier' : 'social-links__link--whatsapp',
+                                },
+                            ],
+                            } %}
+                    </div>
+                    <div class="contacts__email-wrap">
+                        <div class="contacts__email">
+                            <h4>Электронная почта:</h4>
+                            <div class="footer__email-wrap">
+                                <a class="footer__email" href="mailto:torwood@gmail.com">torwood@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contacts__social">
+                            <h4>Социальные сети:</h4>
+                            {% include 'components/social-links.twig' with
+                                {
+                                    mod : 'social-links__list--footer',
+                                    'socialList' : [
+                                    {
+                                        'caption' : 'instagram',
+                                        'modifier' : 'social-links__link--instagram',
+                                    },
+                                    {
+                                        'caption' : 'vkontakte',
+                                        'modifier' : 'social-links__link--vkon',
+                                    },
+                                    {
+                                        'caption' : 'youtube',
+                                        'modifier' : 'social-links__link--yt',
+                                    },
+                                ],
+                                } %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'components/section-title.twig' with
+        {
+            title : 'ищем специалистов',
+            mod : 'section-title--cost',
+        } %}
+
+
+
+
+    <section class="calculator">
+        <div class="container">
+            <div class="calculator__wrap">
+                {% include 'components/form-contacts.twig' %}
+                <div class="block-img__wrap">
+                    <div class="block-img block-img--bg">
+                        <p class="block-img__desc contacts-desc">ищем дизайнера!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% include 'components/section-title.twig' with
+        {
+            title : 'следите за нами в instagram',
+            mod : 'section-title--cost',
+        } %}
+    <div class="watch-inst">
+        <div class="container">
+            <div class="watch-inst__wrap">
+                <div class="watch-inst__inst">
+                    <a href="#">@torwood.by</a>
+                </div>
+
+                <div class="watch-inst__list">
+                    <div class="watch-inst__item">
+                        <a data-fancybox="images-inst" href="../images/insta/1.jpg"><img src="../images/insta/1.jpg" alt=""></a>
+                    </div>
+                    <div class="watch-inst__item">
+                        <a data-fancybox="images-inst" href="../images/insta/2.jpg"><img src="../images/insta/2.jpg" alt=""></a>
+                    </div>
+                    <div class="watch-inst__item">
+                        <a data-fancybox="images-inst" href="../images/insta/3.jpg"><img src="../images/insta/3.jpg" alt=""></a>
+                    </div>
+                    <div class="watch-inst__item">
+                        <a data-fancybox="images-inst" href="../images/insta/4.jpg"><img src="../images/insta/4.jpg" alt=""></a>
+                    </div>
+                    <div class="watch-inst__item">
+                        <a data-fancybox="images-inst" href="../images/insta/5.jpg"><img src="../images/insta/5.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="watch-inst__btn">
+                    <a href="#" class=" btn btn-link--white">В instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social-links__wrap social-links__wrap--product-catalog">
+        {% include 'components/social-links.twig' with
+            {
+                'socialList' : [
+                {
+                    'caption' : 'telegram',
+                    'modifier' : 'social-links__link--tg',
+                },
+                {
+                    'caption' : 'instagram',
+                    'modifier' : 'social-links__link--inst',
+                },
+                {
+                    'caption' : 'vk',
+                    'modifier' : 'social-links__link--vk',
+                },
+                {
+                    'caption' : 'youtube',
+                    'modifier' : 'social-links__link--youtube',
+                },
+                {
+                    'caption' : 'calculator',
+                    'modifier' : 'social-links__link--calculator',
+                    'modItem' : 'social-links__item--calculator',
+                },
+            ],
+            } %}
+    </div>
+
+{% endblock %}

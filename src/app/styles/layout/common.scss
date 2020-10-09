@@ -34,7 +34,9 @@ ul {
 button {
   cursor: pointer;
 }
-
+input[type="text" i]{
+  padding: 0;
+}
 .btn {
   transition: all 0.2s ease-in-out;
   font: 18px Helvetica, Arial, sans-serif;
@@ -131,6 +133,18 @@ button {
 
   @include tablet1100 {
     display: flex !important;
+  }
+}
+.hide-mobile{
+  display: grid;
+  @include mobile{
+    display: none;
+  }
+}
+.show-mobile{
+  display: none;
+  @include mobile{
+    display: flex;
   }
 }
 

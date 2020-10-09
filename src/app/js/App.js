@@ -58,6 +58,8 @@
 window.onload = function () {
 
 
+
+
     const navList = document.querySelector('.nav-mobile-menu');
     const menuToggle = document.querySelector('.js-menu-toggle');
     const body = document.querySelector('body');
@@ -81,6 +83,19 @@ window.onload = function () {
             body.style.overflow = 'hidden';
         }
     })
+
+    // btnShowAll.addEventListener('click', function (e) {
+    //     e.preventDefault();
+    //     let bulletedList = document.querySelector('bulleted-list__item');
+    //     for (let i = 0; i < bulletedList.length; i += 1) {
+    //
+    //         bulletedList[i].style.display = 'block';
+    //         btnShowAllLink.textContent = 'Скрыть';
+    //         showAllArrow.style.transform = 'rotate(-180deg) translateY(50%)';
+    //     }
+    //
+    //     bulletedList[i].style.display = 'none';
+    // })
 
     new Swiper('.swiper-hero', {
         loop: true,
@@ -124,18 +139,18 @@ window.onload = function () {
             },
         },
     })
-    btnShowAll.addEventListener('click', function (e) {
-        e.preventDefault();
-        let bulletedList = document.getElementsByClassName('bulleted-list__item');
-        for (let i = 0; i < bulletedList.length; i += 1) {
+    new Swiper('.swiper-workshop', {
+        slidesPerView: 'auto',
+        loop:true,
+        centeredSlides: true,
+        spaceBetween: 10,
 
-            bulletedList[i].style.display = 'block';
-            btnShowAllLink.textContent = 'Скрыть';
-            showAllArrow.style.transform = 'rotate(-180deg) translateY(50%)';
-        }
-
-        bulletedList[i].style.display = 'none';
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
     })
+
 
     var galleryThumbs = new Swiper('.gallery-thumbs', {
         spaceBetween: 0,
@@ -222,6 +237,9 @@ window.onload = function () {
         galleryTop.slideTo(galleryThumbs.activeIndex);
     });
 
+
+
+
     $('[data-fancybox="images-gallery"]').fancybox({
         buttons: [
             'slideShow',
@@ -259,8 +277,29 @@ window.onload = function () {
             'close'
         ],
     });
-
-
+    $('[data-fancybox="images-workshop"]').fancybox({
+        buttons: [
+            'slideShow',
+            'share',
+            'zoom',
+            'fullScreen',
+            'close'
+        ],
+    });
+    $('[data-fancybox="images-inst"]').fancybox({
+        buttons: [
+            'slideShow',
+            'share',
+            'zoom',
+            'fullScreen',
+            'close'
+        ],
+    });
+    var element = document.getElementById('pattern-phone-mask');
+    var maskOptions = {
+        mask: '+{7}(000)000-00-00'
+    };
+    var mask = IMask(element, maskOptions);
 }();
 
 

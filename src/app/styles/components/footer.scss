@@ -17,11 +17,24 @@
   }
 
   &__contacts-link {
+    position: relative;
     display: flex;
     flex-direction: column;
     font-size: 18px;
     line-height: 22px;
+    padding-left: 30px;
     color: #494337;
+
+    &:before {
+      position: absolute;
+      content: '';
+      background: url(../images/phone.svg) no-repeat;
+      width: 18px;
+      height: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0px;
+    }
   }
 
   &__email-wrap {

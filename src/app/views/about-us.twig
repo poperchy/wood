@@ -211,9 +211,9 @@
             title : 'наша мастерская',
             mod : 'section-title--cost',
         } %}
-    <div class="about-us__workshop">
+    <div class="about-us__workshop hide-mobile">
         <div class="container">
-            <div class="parent">
+            <div class="about-us__workshop-gallery">
                 <div class="div1">
                     <a data-fancybox="images-workshop" href="../images/workshop/1.jpg">
                         <img src="../images/workshop/1.jpg" alt="">
@@ -253,6 +253,52 @@
         </div>
     </div>
 
+    <div class="swiper-workshop-wrap show-mobile">
+            <div class="swiper-container swiper-workshop">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/1.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/1.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/2.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/2.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/3.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/3.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/4.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/4.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/5.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/5.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/6.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/6.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                    <div class="swiper-slide ">
+                        <a data-fancybox="images-workshop" href="../images/workshop/7.jpg"><img class="swiper__img"
+                                                                                                 src="../images/workshop/7.jpg"
+                                                                                                 alt=""></a>
+                    </div>
+                </div>
+                <div class="about__slider-wrap-btn">
+                    <div class="swiper-button-next about-us-btn__next"></div>
+                    <div class="swiper-button-prev about-us-btn__prev"></div>
+                </div>
+
+            </div>
+    </div>
     <div class="social-links__wrap social-links__wrap--product-catalog">
         {% include 'components/social-links.twig' with
             {

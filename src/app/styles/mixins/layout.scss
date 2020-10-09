@@ -4,6 +4,12 @@
   }
 }
 
+@mixin media1160() {
+  @media (max-width: $media1160) {
+    @content;
+  }
+}
+
 @mixin tablet1100() {
   @media (max-width: $tablet1100) {
     @content;

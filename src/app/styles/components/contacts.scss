@@ -1,0 +1,134 @@
+.contacts {
+  h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #494337;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #494337;
+  }
+
+  &-desc {
+    font-size: 22px;
+  }
+
+  &__wrap {
+    display: flex;
+    padding: 0 150px;
+
+
+    .footer__contacts-link-wrap {
+      margin-bottom: 30px;
+    }
+
+    .social-links__link {
+      width: 49px;
+      height: 49px;
+      display: block;
+    }
+
+    .footer__contacts-link {
+      color: #494337;
+      margin-bottom: 13px;
+      padding-left: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .footer__email {
+      position: relative;
+      padding-left: 30px;
+
+      &:before {
+        position: absolute;
+        content: '';
+        background: url(../images/email.svg) no-repeat;
+        width: 19px;
+        height: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+      }
+    }
+
+    @media(max-width: 1250px) {
+      padding: 0 100px;
+    }
+    @include media1160 {
+      padding: 0 0px;
+    }
+    @media(max-width: 890px) {
+      flex-direction: column;
+      padding: 0 60px;
+    }
+    @include mobile {
+      padding: 0;
+    }
+  }
+
+  &__phones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    @include mobile {
+      margin: 0;
+    }
+  }
+
+  &__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__email-wrap {
+    .footer__email-wrap {
+      margin: 0 0 20px 0;
+    }
+
+    @include mobile {
+      margin-top: 30px;
+    }
+  }
+
+  &__requisites {
+    width: 50%;
+    @media(max-width: 890px) {
+      order: 1;
+      margin-top: 65px;
+      width: 100%;
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__connection {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    @media(max-width: 890px) {
+      width: 100%;
+    }
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+}

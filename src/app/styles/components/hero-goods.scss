@@ -48,6 +48,9 @@
     @include mobile{
       margin-top: 20px;
     }
+    &--contacts{
+      margin: 0;
+    }
   }
 
   &--about {

@@ -3,25 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/about-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/about-product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/gallery-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/gallery-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/options.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/about-product.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/about-product.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/catalog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/about-us.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/about-us.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/gallery-inst.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/gallery-inst.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/product-catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/product-catalog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/product-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/product-goods.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/layout/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/footer.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +45,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images/workshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/js/libs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\test\wood\src\app\images\workshop" />
-      <recent name="E:\test\wood\src\app\images\about-us" />
-      <recent name="E:\test\wood\src\app\images" />
-      <recent name="E:\test\wood\src\app\js\libs" />
-      <recent name="E:\wood\wood\src\app\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\test\wood\src\app\js\libs" />
       <recent name="E:\test\wood\src\app\styles\libraries" />
       <recent name="E:\test\wood\src\app\styles\layout" />
       <recent name="E:\test\wood\src\app\images\thumb" />
       <recent name="E:\wood\wood\src\app\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\test\wood\src\app\js\libs" />
+      <recent name="E:\test\wood\src\app\images\insta" />
+      <recent name="E:\test\wood\src\app\images\contacts" />
+      <recent name="E:\test\wood\src\app\views\components" />
+      <recent name="E:\test\wood\src\app\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
@@ -87,6 +86,7 @@
       <workItem from="1598510393070" duration="13252000" />
       <workItem from="1602059038906" duration="20845000" />
       <workItem from="1602139682007" duration="22261000" />
+      <workItem from="1602226137007" duration="22343000" />
     </task>
     <servers />
   </component>
@@ -119,15 +119,15 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="667" y="182" width="585" height="795" key="find.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602156156879" />
-    <state x="616" y="270" key="run.anything.popup" timestamp="1598449459645">
+    <state x="616" y="270" key="run.anything.popup" timestamp="1602245128793">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598449459645" />
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602245128793" />
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996919253" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1598446890281">
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1602251146612">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598446890281" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602251146612" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996554478" />
   </component>
 </project>
