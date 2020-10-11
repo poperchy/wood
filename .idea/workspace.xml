@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/mixins/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/options.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/about-us.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/about-us.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/gallery-inst.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/gallery-inst.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/layout/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/footer.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,12 +53,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/js/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MY JOB\wood\src\app\images" />
+      <recent name="D:\MY JOB\wood\src\app\images\blog" />
+      <recent name="E:\test\wood\src\app\js\libs" />
+      <recent name="E:\test\wood\src\app\images\insta" />
+      <recent name="E:\test\wood\src\app\images\contacts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\test\wood\src\app\js\libs" />
       <recent name="E:\test\wood\src\app\styles\libraries" />
@@ -57,15 +75,8 @@
       <recent name="E:\test\wood\src\app\images\thumb" />
       <recent name="E:\wood\wood\src\app\views" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\test\wood\src\app\js\libs" />
-      <recent name="E:\test\wood\src\app\images\insta" />
-      <recent name="E:\test\wood\src\app\images\contacts" />
-      <recent name="E:\test\wood\src\app\views\components" />
-      <recent name="E:\test\wood\src\app\images" />
-    </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,11 +98,23 @@
       <workItem from="1602059038906" duration="20845000" />
       <workItem from="1602139682007" duration="22261000" />
       <workItem from="1602226137007" duration="22343000" />
+      <workItem from="1602417661478" duration="5828000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602167732224">

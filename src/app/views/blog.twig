@@ -1,0 +1,89 @@
+{% extends 'layout/base.twig' %}
+{% block title %}Стулья{% endblock %}
+{% block body %}
+    {% include 'components/hero-goods.twig' with
+        {
+            url : '../images/blog/blog-img.jpg',
+            desc : 'контакты',
+            class : 'section-title__title section-title__title--contacts hero-goods__desc--contacts',
+        } %}
+
+    {% include 'components/breadcrumbs.twig' %}
+    <div class="blog">
+        <div class="container">
+            {% include 'components/useful-articles.twig' with
+                {
+                    usefulArticlesItem : [
+                    {
+                        img : '../images/articles1.jpg',
+                        alt : 'Как создать дизайн интерьера со вкусом?',
+                        desc : 'Как создать дизайн интерьера со вкусом?',
+                        link : '#',
+                    },
+                    {
+                        img : '../images/articles2.jpg',
+                        alt : 'Чем покрывают изделия из дерева?',
+                        desc : 'Чем покрывают изделия из дерева?',
+                        link : '#',
+                    },
+                    {
+                        img : '../images/articles3.jpg',
+                        alt : 'Уход за изделиями из дерева',
+                        desc : 'Уход за изделиями из дерева',
+                        link : '#',
+                    },
+                    {
+                        img : '../images/articles1.jpg',
+                        alt : 'Как создать дизайн интерьера со вкусом?',
+                        desc : 'Как создать дизайн интерьера со вкусом?',
+                        link : '#',
+                    },
+                    {
+                        img : '../images/articles1.jpg',
+                        alt : 'Как создать дизайн интерьера со вкусом?',
+                        desc : 'Как создать дизайн интерьера со вкусом?',
+                        link : '#',
+                    },
+                    {
+                        img : '../images/articles1.jpg',
+                        alt : 'Как создать дизайн интерьера со вкусом?',
+                        desc : 'Как создать дизайн интерьера со вкусом?',
+                        link : '#',
+                    },
+                ]
+                } %}
+            {% include 'components/pagination.twig' %}
+        </div>
+    </div>
+    <div class="social-links__wrap social-links__wrap--product-catalog">
+
+        {% include 'components/social-links.twig' with
+            {
+                'socialList' : [
+                {
+                    'caption' : 'telegram',
+                    'modifier' : 'social-links__link--tg',
+                },
+                {
+                    'caption' : 'instagram',
+                    'modifier' : 'social-links__link--inst',
+                },
+                {
+                    'caption' : 'vk',
+                    'modifier' : 'social-links__link--vk',
+                },
+                {
+                    'caption' : 'youtube',
+                    'modifier' : 'social-links__link--youtube',
+                },
+                {
+                    'caption' : 'calculator',
+                    'modifier' : 'social-links__link--calculator',
+                    'modItem' : 'social-links__item--calculator',
+                },
+            ],
+            } %}
+
+    </div>
+
+{% endblock %}

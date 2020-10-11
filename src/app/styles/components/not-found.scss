@@ -1,0 +1,36 @@
+.not-found {
+  height: 90vh;
+
+  .hero-goods__title {
+    h1 {
+      font-size: 45px;
+      opacity: 1;
+      font-family: "ankchiddjgmbalc", sans-serif;
+      font-weight: normal;
+      @include tablet1100{
+        margin-top: 50px;
+        font-size: 30px;
+        line-height: 60px;
+      }
+    }
+
+    p {
+      margin-top: 70px;
+      @include tablet1100{
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      @include mobile{
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+
+    span {
+      font-size: 90px;
+      @include tablet1100{
+        font-size: 70px;
+      }
+    }
+  }
+}

@@ -63,3 +63,13 @@
     }
   }
 }
+.not-found{
+  height: 90vh;
+  @include tablet1100{
+    height: 407px;
+  }
+  @include mobile{
+    margin-bottom: 0;
+    height: 334px;
+  }
+}

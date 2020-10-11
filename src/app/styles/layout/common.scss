@@ -34,9 +34,11 @@ ul {
 button {
   cursor: pointer;
 }
-input[type="text" i]{
+
+input[type="text" i] {
   padding: 0;
 }
+
 .btn {
   transition: all 0.2s ease-in-out;
   font: 18px Helvetica, Arial, sans-serif;
@@ -52,7 +54,7 @@ input[type="text" i]{
     border: 1px solid rgba(73, 67, 55, 0.85);
   }
 
-  &--brown{
+  &--brown {
     position: relative;
     background: #494337;
     color: #ffffff;
@@ -64,10 +66,42 @@ input[type="text" i]{
     -o-transition: 0.2s;
     transition: 0.2s;
 
-    &:after{
+    &:after {
       content: '';
     }
 
+  }
+
+  &--not-found {
+    padding: 10px 19px 10px 45px;
+    border: 1px solid #494337;
+    color: #494337;
+    background: rgba(255, 255, 255, 0.65);
+    position: relative;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.2s;
+    margin-top: 100px;
+    &:hover{
+      background: rgba(255, 255, 255, 1);
+      transition: 0.2s;
+    }
+
+    &:after {
+      position: absolute;
+      content: '';
+      background: url(../images/arrow.svg) no-repeat right;
+      top: 50%;
+      width: 14px;
+      height: 8px;
+      left: 15px;
+      transform: translateY(-45%) rotate(180deg);
+      opacity: 1;
+    }
+    @include tablet1100{
+      margin-top: 60px;
+    }
   }
 }
 
@@ -135,15 +169,17 @@ input[type="text" i]{
     display: flex !important;
   }
 }
-.hide-mobile{
+
+.hide-mobile {
   display: grid;
-  @include mobile{
+  @include mobile {
     display: none;
   }
 }
-.show-mobile{
+
+.show-mobile {
   display: none;
-  @include mobile{
+  @include mobile {
     display: flex;
   }
 }
@@ -200,11 +236,12 @@ input[type="text" i]{
 }
 
 .swiper-about .swiper-slide {
-  @include mobile{
+  @include mobile {
     width: 214px !important;
   }
 }
-.swiper-about .swiper-slide img{
+
+.swiper-about .swiper-slide img {
   width: 100%;
   height: auto;
 }
