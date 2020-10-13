@@ -48,11 +48,11 @@ input[type="text" i] {
   color: #fff;
   padding: 16px 40px;
   cursor: pointer;
-
-  &:hover {
-    background: rgba(73, 67, 55, 0.85);
-    border: 1px solid rgba(73, 67, 55, 0.85);
-  }
+  //
+  //&:hover {
+  //  background: rgba(73, 67, 55, 0.85);
+  //  border: 1px solid rgba(73, 67, 55, 0.85);
+  //}
 
   &--brown {
     position: relative;
@@ -244,4 +244,42 @@ input[type="text" i] {
 .swiper-about .swiper-slide img {
   width: 100%;
   height: auto;
+}
+
+.form__file-reset{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 220px;
+  bottom: 19px;
+  display: none;
+}
+.textarea__wrap .form__label-file{
+  position: absolute;
+  background: #959799;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: url(../images/attach.svg) no-repeat center;
+  cursor: pointer;
+  bottom: 15px;
+  right: 15px;
+}
+.form__file-text{
+  position: absolute;
+  left: -160px;
+  bottom: 5px;
+  color: #494337;
+}
+.form__input-file{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+.textarea__wrap{
+  position: relative;
 }

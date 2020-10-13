@@ -187,8 +187,6 @@ window.onload = function () {
         },
         freeMode: true,
     });
-    // galleryTop.controller.control = galleryThumbs;
-    // galleryThumbs.controller.control = galleryTop;
     var galleryTop = new Swiper('.gallery-top', {
         watchOverflow: true,
         watchSlidesVisibility: true,
@@ -205,10 +203,10 @@ window.onload = function () {
         },
         breakpoints: {
             // when window width is >= 320px
-            // 320: {
-            //     slidesPerView: 2,
-            //     spaceBetween: 20
-            // },
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 300,
+            },
             // // when window width is >= 480px
             // 480: {
             //     slidesPerView: 3,
@@ -236,6 +234,86 @@ window.onload = function () {
     galleryThumbs.on('transitionStart', function () {
         galleryTop.slideTo(galleryThumbs.activeIndex);
     });
+
+
+    // var reviewsThumbs = new Swiper('.reviews__thumb', {
+    //     spaceBetween: 0,
+    //     slidesPerView: 3,
+    //     centeredSlides: true,
+    //     touchRatio: 0.2,
+    //     slideToClickedSlide: true,
+    //     centeredSlidesBounds: true,
+    //     watchOverflow: true,
+    //     watchSlidesVisibility: true,
+    //     watchSlidesProgress: true,
+    //
+    //     breakpoints: {
+    //         // when window width is >= 320px
+    //         320: {
+    //             slidesPerView: 3,
+    //             spaceBetween: 10,
+    //             direction: 'horizontal',
+    //         },
+    //         // // when window width is >= 480px
+    //
+    //
+    //         // when window width is >= 640px
+    //         640: {
+    //             slidesPerView: 3,
+    //             spaceBetween: 10,
+    //             direction: 'vertical',
+    //         },
+    //         767: {
+    //             slidesPerView: 3,
+    //             spaceBetween: 10,
+    //             direction: 'vertical',
+    //         },
+    //     },
+    //     freeMode: true,
+    // });
+    // var reviewsTop = new Swiper('.reviews__top', {
+    //     watchOverflow: true,
+    //     watchSlidesVisibility: true,
+    //     watchSlidesProgress: true,
+    //     preventInteractionOnTransition: true,
+    //     spaceBetween: 200,
+    //     effect: 'coverflow',
+    //     coverflowEffect: {
+    //         rotate: 30,
+    //         slideShadows: false,
+    //     },
+    //     breakpoints: {
+    //         320: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 300,
+    //         },
+    //         // // when window width is >= 480px
+    //         480: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 300,
+    //         },
+    //
+    //         640: {
+    //             slidesPerView: 1,
+    //             spaceBetween: 200,
+    //         }
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
+    //
+    //     thumbs: {
+    //         swiper: reviewsThumbs,
+    //     }
+    // });
+    // reviewsTop.on('slideChangeTransitionStart', function () {
+    //     reviewsThumbs.slideTo(reviewsTop.activeIndex);
+    // });
+    //
+    // galleryThumbs.on('transitionStart', function () {
+    //     reviewsTop.slideTo(reviewsThumbs.activeIndex);
+    // });
 
 
 
@@ -300,6 +378,13 @@ window.onload = function () {
         mask: '+{7}(000)000-00-00'
     };
     var mask = IMask(element, maskOptions);
+
+    $(".form__input-file").change(function () {
+        "" != $(this).val() && ($(".form__file-text").text("Выбрано файлов: " + $(this)[0].files.length), $(".form__file-reset").css("display", "block"), $(".form__label-file").css("font-size", "16px"));
+    }),
+        $(".form__file-reset").click(function (e) {
+            e.preventDefault(), $(".form__input-file").val(""), $(".form__label-file").css("font-size", "0"), $(".form__file-reset").css("display", "none");
+        })
 }();
 
 

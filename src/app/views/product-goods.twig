@@ -1,7 +1,13 @@
 {% extends 'layout/base.twig' %}
 {% block title %}Стул{% endblock %}
 {% block body %}
-    {% include 'components/hero-goods.twig' %}
+    <section class="hero-goods {{ mod }}" style="background: url(../images/goods-tables.jpg) no-repeat center;   background-size: cover;">
+        <div class="hero-goods__title">
+            <h1>{{ title }} <span>{{ title2 }}</span></h1>
+            <p class="hero-goods__desc {{ class }}">{{ desc }}</p>
+            <a {{ link }}</a>
+        </div>
+    </section>
     {% include 'components/catalog-nav.twig' with
         {
             catalogItem : [

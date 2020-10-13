@@ -63,12 +63,18 @@
     transition: 0.2s;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.8);
+      background: #645F55;
+      color:#FFFFFF;
       transition: 0.2s;
+      &:after{
+          background: url('../images/arrow-white.svg') no-repeat right;
+
+      }
     }
 
+
     &:active {
-      background: rgba(255, 255, 255, 0.8);
+      background: rgba(100, 95, 85, 0.8);
     }
 
     &:after {

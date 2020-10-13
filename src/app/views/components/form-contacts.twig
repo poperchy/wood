@@ -11,7 +11,13 @@
                 <label>
                     <input type="email" placeholder="E-mail">
                 </label>
-                <textarea name="" cols="30" rows="7" placeholder="Напишите сообщение..."></textarea>
+                <div class="textarea__wrap">
+                    <textarea name="" cols="30" rows="7" placeholder="Напишите сообщение..."></textarea>
+                    <a href="#" class="form__file-reset">×</a>
+                    <label class="form__label-file"><span class="form__file-text"></span>
+                        <input type="file" class="form__input-file" id="first" name="first[]" multiple>
+                    </label>
+                </div>
             </div>
             <div class="form__question-btn form__contacts-btn">
                 <button class="btn btn-link--brown">Отправить</button>

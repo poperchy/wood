@@ -17,14 +17,6 @@
     position: absolute !important;
     bottom: 24px;
     right: 14px;
-
-    @media (min-width: 670px) and(max-width: 1160px) {
-
-    }
-
-    @include mobile {
-
-    }
   }
 
   &__item {
