@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Torwood</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<div class="container container--header">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list hide-tablet">
+                <li class="nav__item">
+                    <a href="#" class="nav__link ">Каталог</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link ">О нас</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link ">Блог</a>
+                </li>
+            </ul>
+            <div class="nav__logo">
+                <a href="#" class="nav__link nav__link-logo">
+                    <picture class="picture">
+                        <source media="(max-width: 671px)"
+                                srcset="images/logo-mobile.png 1x, images/logo-mobile@2x.png">
+                        <source media="(min-width: 961px)" srcset="images/logo.png 1x, images/logo@2x.png">
+                        <img src="images/logo.png" srcset="images/logo.png 1x, images/logo@2xpng" alt="Torwood ">
+                    </picture>
+
+                </a>
+            </div>
+            <ul class="nav__list nav__list--around hide-tablet">
+
+                <li class="nav__item">
+                    <a href="#" class="nav__link ">Отзывы</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="nav__link ">Контакты</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="tel:+375295856312" class="nav__link nav__link--phone">+375295856312</a>
+                </li>
+            </ul>
+            <div class="nav-mobile-menu">
+                <ul class="nav-mobile-menu__list">
+                    <li class="nav-mobile-menu__item">
+                        <a href="#" class="nav__link nav__link--mobile ">Каталог</a>
+                    </li>
+                    <li class="nav-mobile-menu__item">
+                        <a href="#" class="nav__link nav__link--mobile ">О нас</a>
+                    </li>
+                    <li class="nav-mobile-menu__item">
+                        <a href="#" class="nav__link nav__link--mobile ">Блог</a>
+                    </li>
+                    <li class="nav-mobile-menu__item">
+                        <a href="#" class="nav__link nav__link--mobile ">Отзывы</a>
+                    </li>
+                    <li class="nav-mobile-menu__item">
+                        <a href="#" class="nav__link nav__link--mobile ">Контакты</a>
+                    </li>
+                    <li class="nav-mobile-menu__item">
+                        <a href="tel:+375295856312"
+                           class="nav__link nav__link--mobile nav__link--phone">+375295856312</a>
+                    </li>
+                </ul>
+                <div class="social-links">
+                    <ul class="social-links__list ">
+                        <li class="social-links__item ">
+                            <a href class="social-links__link social-links__link--tg">
+                                <span class="visually-hidden">telegram</span>
+                            </a>
+                        </li>
+                        <li class="social-links__item ">
+                            <a href class="social-links__link social-links__link--inst">
+                                <span class="visually-hidden">instagram</span>
+                            </a>
+                        </li>
+                        <li class="social-links__item ">
+                            <a href class="social-links__link social-links__link--vk">
+                                <span class="visually-hidden">vk</span>
+                            </a>
+                        </li>
+                        <li class="social-links__item ">
+                            <a href class="social-links__link social-links__link--youtube">
+                                <span class="visually-hidden">youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav__btn-wrap hide-desktop">
+                <a href="#"><img src="images/calculator.svg" alt="Калькулятор"></a>
+            </div>
+            <button class="nav__button js-menu-toggle hide-desktop">
+                <span class="visually-hidden">Открыть меню</span>
+                <span class="nav__button-burger"></span>
+            </button>
+        </nav>
+    </header>
+</div>
+<section class="hero" style="background: url('images/hero.jpg') no-repeat center;
+    background-size: cover;">
+    <div class="container container--hero-slide">
+        <div class="hero__wrap">
+            <div class="hero__slider">
+                <div class="hero__slider-wrap">
+                    <section class="slider container--hero">
+                        <div class="slider__wrap">
+                            <div class="swiper-container swiper-hero swiper-container--hero-tablet">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide swiper-slide--justify">
+                                        <img class="swiper__img" src="images/hero-slide1.png" alt="Стул">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="hero__card-wrap">
+                <div class="hero__card">
+                    <h1 class="hero__title">torwood</h1>
+                    <h2 class="hero__title-desc">изделия из дерева на заказ</h2>
+                    <p class="hero__desc">Cоздадим уникальный стиль и атмосферу в вашем помещении.
+                        Воплотим любую вашу идею из дерева, поможем с выбором
+                        дизайна и материалов! Используем только экологичные
+                        покрытия высокого качества. Индивидуальный подход.
+                        Доставка РБ, РФ.</p>
+                    <div class="btn-link btn-link--brown-wrap">
+                        <a href="#" class="btn-link btn-link--brown">В каталог</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="section-title section-title--advantages">
+        <h3 class="section-title__title ">наши преимущества</h3>
+    </div>
+</div>
+<section class="advantages">
+    <div class="container">
+        <ul class="advantages__list">
+            <li class="advantages__item">
+                <img class="advantages__img" src="images/hand-with-coupon.svg" alt="гибкое ценообразовние">
+                <p class="advantages__desc">Гибкое ценообразовние</p>
+            </li>
+            <li class="advantages__item">
+                <img class="advantages__img" src="images/flower.svg" alt="экологические материалы">
+                <p class="advantages__desc">Используем только экологически чистые материалы</p>
+            </li>
+            <li class="advantages__item">
+                <img class="advantages__img" src="images/chair.svg" alt="уникальный дизайн">
+                <p class="advantages__desc">Делаем мебель с уникальным дизайном</p>
+            </li>
+            <li class="advantages__item">
+                <img class="advantages__img" src="images/man.svg" alt="индивидуальный подход">
+                <p class="advantages__desc">Индивидуальный подход к каждому клиенту</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<div class="container">
+    <div class="section-title section-title--catalog">
+        <h3 class="section-title__title ">Каталог товаров</h3>
+    </div>
+</div>
+<section class="catalog">
+    <div class="container">
+        <ul class="catalog__list">
+            <li class="catalog__item ">
+                <div class="catalog__item-img-wrap">
+                    <img class="catalog__img" src="images/imagecatalog-1.jpg" alt="Стулья и кресла">
+                    <a class="catalog__link btn-link--white " href="../#">Подробнее</a>
+                </div>
+
+                <p class="catalog__desc">Стулья и кресла</p>
+            </li>
+            <li class="catalog__item ">
+                <div class="catalog__item-img-wrap">
+                    <img class="catalog__img" src="images/imagecatalog-2.jpg" alt="Тумбы и комоды">
+                    <a class="catalog__link btn-link--white " href="#">Подробнее</a>
+                </div>
+
+                <p class="catalog__desc">Тумбы и комоды</p>
+            </li>
+            <li class="catalog__item ">
+                <div class="catalog__item-img-wrap">
+                    <img class="catalog__img" src="images/imagecatalog-3.jpg" alt="Кровати для детской">
+                    <a class="catalog__link btn-link--white " href="#">Подробнее</a>
+                </div>
+
+                <p class="catalog__desc">Кровати для детской</p>
+            </li>
+            <li class="catalog__item ">
+                <div class="catalog__item-img-wrap">
+                    <img class="catalog__img" src="images/imagecatalog-4.jpg" alt="Кровати и диваны">
+                    <a class="catalog__link btn-link--white " href="#">Подробнее</a>
+                </div>
+
+                <p class="catalog__desc">Кровати и диваны</p>
+            </li>
+            <li class="catalog__item ">
+                <div class="catalog__item-img-wrap">
+                    <img class="catalog__img" src="images/imagecatalog-5.jpg" alt="Столы">
+                    <a class="catalog__link btn-link--white " href="#">Подробнее</a>
+                </div>
+
+                <p class="catalog__desc">Столы</p>
+            </li>
+            <li class="catalog__item ">
+                <div class="catalog__item-img-wrap">
+                    <img class="catalog__img" src="images/imagecatalog-6.jpg" alt="Шкафы и серванты">
+                    <a class="catalog__link btn-link--white " href="#">Подробнее</a>
+                </div>
+                <p class="catalog__desc">Шкафы и серванты</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<div class="container">
+    <div class="section-title section-title--calculator">
+        <h3 class="section-title__title ">стоимость работ</h3>
+    </div>
+</div>
+<section class="calculator">
+    <div class="container">
+        <div class="calculator__wrap">
+            <div class="form__wrap">
+                <div class="form__container">
+                    <h4 class="form__title">Пройдите "Чек лист" и узнайте стоимость работы</h4>
+                    <form action="#" class="form form--index">
+                        <div class="form__progress">
+                            <span class="form__progress-item form__progress-item--active"></span>
+                            <span class="form__progress-item"></span>
+                            <span class="form__progress-item"></span>
+                            <span class="form__progress-item"></span>
+                            <span class="form__progress-item"></span>
+                        </div>
+                        <div class="form__question">
+                            <h5 class="form__question-title">Какой тип мебели вас интереcует?</h5>
+                            <div class="form__checkbox-wrap">
+                                <div class="form__checkbox">
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Тумба</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Кровать</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Шкаф</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Стол</span>
+                                    </label>
+                                </div>
+                                <div class="form__checkbox">
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Предмет интерьера</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Стул</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Комод</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox"> <span class="checkbox__text">Другое</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form__question-btn">
+                                <button class="btn btn-link--brown">Далее</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="block-img__wrap">
+                <div class="block-img block-img--chair">
+                    <p class="block-img__desc">готовы ли вы к покупке мебели из массива?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="section-title section-title--making">
+        <h3 class="section-title__title ">процесс изготовления</h3>
+    </div>
+</div>
+<section class="video-block">
+    <div class="container">
+        <div class="video-block__wrap">
+            <div class="video-block__video ">
+                <iframe src="https://www.youtube.com/embed/rlWMDYpI7fM" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+            <div class="video-block__desc-wrap ">
+                <p class="video-block__desc ">Воплотим любую<br> вашу идею из<br> дерева</p>
+            </div>
+        </div>
+        <div class="video-block__wrap">
+            <div class="video-block__video video-block__video--order">
+                <iframe src="https://www.youtube.com/embed/rlWMDYpI7fM" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+            <div class="video-block__desc-wrap video-block__desc-wrap--order">
+                <p class="video-block__desc video-block__desc--order">Ручная работа<br> придает мебели<br> особую
+                    теплоту</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="section-title section-title--stages">
+        <h3 class="section-title__title ">этапы работы</h3>
+    </div>
+</div>
+<section class="stages">
+    <div class="container">
+        <div class="stages__wrap">
+            <ul class="stages__list">
+                <li class="stages__item">
+                    <img class="stages__img" src="images/pencil.svg" alt="Разработка дизайна">
+                    <p class="stages__desc">Разработка дизайна</p>
+                </li>
+                <li class="stages__item">
+                    <img class="stages__img" src="images/ruler.svg" alt="Выбор материала">
+                    <p class="stages__desc">Выбор материала</p>
+                </li>
+                <li class="stages__item">
+                    <img class="stages__img" src="images/abacus.svg" alt="Расчет стоимости">
+                    <p class="stages__desc">Расчет стоимости</p>
+                </li>
+            </ul>
+            <ul class="stages__list">
+                <li class="stages__item">
+                    <img class="stages__img" src="images/card.svg" alt="Оплата">
+                    <p class="stages__desc">Оплата</p>
+                </li>
+                <li class="stages__item">
+                    <img class="stages__img" src="images/chisel.svg" alt="Изготовление">
+                    <p class="stages__desc">Изготовление</p>
+                </li>
+                <li class="stages__item">
+                    <img class="stages__img" src="images/sofa.svg" alt="Доставка">
+                    <p class="stages__desc">Доставка</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="section-title section-title--useful-articles">
+        <h3 class="section-title__title ">полезные статьи</h3>
+    </div>
+</div>
+<div class="useful-articles">
+    <div class="useful-articles__wrap">
+        <article class="useful-articles__item">
+            <img class="useful-articles__img" src="images/articles1.jpg" alt="Как создать дизайн интерьера со вкусом?">
+            <div class="useful-articles__desc-wrap">
+                <p class="useful-articles__desc">Как создать дизайн интерьера со вкусом?</p>
+                <div class="useful-articles__link-wrap">
+                    <a class="useful-articles__link btn-link--white" href="#">Читать</a>
+                </div>
+            </div>
+        </article>
+        <article class="useful-articles__item">
+            <img class="useful-articles__img" src="images/articles2.jpg" alt="Чем покрывают изделия из дерева?">
+            <div class="useful-articles__desc-wrap">
+                <p class="useful-articles__desc">Чем покрывают изделия из дерева?</p>
+                <div class="useful-articles__link-wrap">
+                    <a class="useful-articles__link btn-link--white" href="#">Читать</a>
+                </div>
+            </div>
+        </article>
+        <article class="useful-articles__item">
+            <img class="useful-articles__img" src="images/articles3.jpg" alt="Уход за изделиями из дерева">
+            <div class="useful-articles__desc-wrap">
+                <p class="useful-articles__desc">Уход за изделиями из дерева</p>
+                <div class="useful-articles__link-wrap">
+                    <a class="useful-articles__link btn-link--white" href="#">Читать</a>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+<div class="social-links__wrap">
+    <div class="social-links">
+        <ul class="social-links__list ">
+            <li class="social-links__item ">
+                <a href class="social-links__link social-links__link--tg">
+                    <span class="visually-hidden">telegram</span>
+                </a>
+            </li>
+            <li class="social-links__item ">
+                <a href class="social-links__link social-links__link--inst">
+                    <span class="visually-hidden">instagram</span>
+                </a>
+            </li>
+            <li class="social-links__item ">
+                <a href class="social-links__link social-links__link--vk">
+                    <span class="visually-hidden">vk</span>
+                </a>
+            </li>
+            <li class="social-links__item ">
+                <a href class="social-links__link social-links__link--youtube">
+                    <span class="visually-hidden">youtube</span>
+                </a>
+            </li>
+            <li class="social-links__item social-links__item--calculator">
+                <a href class="social-links__link social-links__link--calculator">
+                    <span class="visually-hidden">calculator</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<section class="footer">
+    <div class="container">
+        <div class="footer__logo">
+            <img class="footer__img" src="images/logo.png" alt>
+        </div>
+        <div class="footer__content">
+            <div class="footer__contacts footer--width">
+                <div class="footer__contacts-link-wrap">
+                    <a class="footer__contacts-link" href="tel:+375 44 7879898">+375 44 7879898</a>
+                    <a class="footer__contacts-link" href="tel:+375 44 7879898">+375 44 7879898</a>
+                </div>
+                <div class="footer__email-wrap">
+                    <a class="footer__email" href="mailto:torwood@gmail.com">torwood@gmail.com</a>
+                </div>
+                <div class="footer__social-wrap">
+                    <p class="footer__social-title">Присоединяйтесь:</p>
+                    <div class="social-links">
+                        <ul class="social-links__list social-links__list--footer">
+                            <li class="social-links__item ">
+                                <a href class="social-links__link social-links__link--vk">
+                                    <span class="visually-hidden">vk</span>
+                                </a>
+                            </li>
+                            <li class="social-links__item ">
+                                <a href class="social-links__link social-links__link--inst">
+                                    <span class="visually-hidden">instagram</span>
+                                </a>
+                            </li>
+                            <li class="social-links__item ">
+                                <a href class="social-links__link social-links__link--youtube">
+                                    <span class="visually-hidden">yo  utube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__instagram footer--width">
+                <div class="gallery-inst">
+                    <div class="container">
+                        <div class="section-title section-title--footer">
+                            <h3 class="section-title__title section-title__title--footer">Следите за нами в
+                                Instagram</h3>
+                        </div>
+                    </div>
+                    <a class="gallery-inst__link gallery-inst__link--inst" href="@torwood.by">@torwood.by</a>
+                    <ul class="gallery-inst__list">
+                        <li class="gallery-inst__item">
+                            <a data-fancybox="images-inst" href="images/inst-1.jpg">
+                                <img class="gallery-inst__img" src="images/inst-1.jpg" alt="фото">
+                            </a>
+                        </li>
+                        <li class="gallery-inst__item">
+                            <a data-fancybox="images-inst" href="images/inst-2.jpg">
+                                <img class="gallery-inst__img" src="images/inst-2.jpg" alt="фото">
+                            </a>
+                        </li>
+                        <li class="gallery-inst__item">
+                            <a data-fancybox="images-inst" href="images/inst-3.jpg">
+                                <img class="gallery-inst__img" src="images/inst-3.jpg" alt="фото">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__nav footer--width">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Главная</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Каталог</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">О нас</a>
+                    </li>
+                </ul>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Блог</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Отзывы</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a class="footer__nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__developed">
+            <p class="footer__developed-title">Разработика и продвижение</p>
+            <a class="footer__developed-link" href="#">
+                <img class="footer__developed-img" src="images/CMbox.svg" alt>
+                CMbox</a>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/all.min.js"></script>
+</body>
+</html>

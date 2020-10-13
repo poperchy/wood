@@ -20,105 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3fe775-fc20-41a4-8e98-81c2df077966" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/CMbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/CMbox.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/abacus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/abacus.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/arrow-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/arrow-white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/bed-cat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/bed-cat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/beds-children-cat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/beds-children-cat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/cabinets-cat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/cabinets-cat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/calculator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/calculator.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/card.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/chair-cat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/chair-cat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/chair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/chair.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/check.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/chisel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/chisel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/contacts/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/contacts/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/contacts/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/contacts/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/contacts/viber.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/contacts/viber.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/contacts/vkon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/contacts/vkon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/contacts/whatsaap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/contacts/whatsaap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/contacts/yt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/contacts/yt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/curbstone-cat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/curbstone-cat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/email.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/flower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/flower.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/hand-with-coupon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/hand-with-coupon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/inst.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/inst.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/logo-mobile-svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/logo-mobile-svg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/logo-svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/logo-svg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/man.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/man.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/pagination-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/pagination-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/pencil.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/pencil.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/ruler.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/ruler.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/small-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/small-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/sofa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/sofa.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/svg_sprite/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/svg_sprite/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/tables-cat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/tables-cat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/tg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/tg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/images/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/images/youtube.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/about-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/about-product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/block-img.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/breadcrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/btn-link.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/bulleted-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/bulleted-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/calculator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/calculator.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog-nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/gallery-inst.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/gallery-inst.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/gallery-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/gallery-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero-goods.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/history.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/history.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/not-found.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/not-found.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/section-title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/social-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/stages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/stages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/useful-articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/useful-articles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/video-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/video-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/components/watch-inst.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/components/watch-inst.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/layout/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/layout/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/libraries/swiper-bundle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/libraries/swiper-bundle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/mixins/png-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/mixins/png-sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/mixins/svg-sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/mixins/svg-sprite.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/404.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/404.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/about-us.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/about-us.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/blog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/blog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/about-product.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/about-product.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/advantages.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/advantages.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/block-img.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/block-img.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/breadcrumbs.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/breadcrumbs.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/btn-link.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/btn-link.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/bulleted-list.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/bulleted-list.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/calculator.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/calculator.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/catalog-nav.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/catalog-nav.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/catalog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/form-contacts.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/form-contacts.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/form.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/form.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/gallery-inst.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/gallery-inst.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/gallery-list.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/gallery-list.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero-goods.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/hero.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/hero.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/pagination.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/pagination.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/section-title.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/section-title.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/stages.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/stages.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/useful-articles.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/useful-articles.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/components/video-block.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/components/video-block.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/contacts.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/contacts.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/layout/base.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/base.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/layout/footer.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/layout/footer.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/product-catalog.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/product-catalog.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/views/product-goods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/product-goods.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/home.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/home.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +50,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -191,7 +102,13 @@
       <workItem from="1602139682007" duration="22261000" />
       <workItem from="1602226137007" duration="22343000" />
       <workItem from="1602417661478" duration="5828000" />
-      <workItem from="1602575112880" duration="303000" />
+      <workItem from="1602575112880" duration="4901000" />
+      <workItem from="1602580437340" duration="18000" />
+      <workItem from="1602580474985" duration="228000" />
+      <workItem from="1602580812695" duration="25000" />
+      <workItem from="1602581049424" duration="217000" />
+      <workItem from="1602582670068" duration="107000" />
+      <workItem from="1602582966707" duration="5458000" />
     </task>
     <servers />
   </component>
@@ -211,22 +128,35 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602167732224">
+    <state x="552" y="238" key="#Deployment" timestamp="1602582746467">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602167732224" />
+    <state x="552" y="238" key="#Deployment/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602582746467" />
+    <state x="637" y="274" key="#Options" timestamp="1602578651882">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="637" y="274" key="#Options/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602578651882" />
+    <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602578312402">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="686" y="382" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602578312402" />
     <state x="690" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602072205624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="690" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602072205624" />
-    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1598006612691">
+    <state x="585" y="148" key="CommitChangelistDialog2" timestamp="1602578681002">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="585" y="148" key="CommitChangelistDialog2/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602578681002" />
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1602580557934">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602580557934" />
     <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1598006612691" />
-    <state x="461" y="224" key="SettingsEditor" timestamp="1598367519014">
+    <state x="461" y="224" key="SettingsEditor" timestamp="1602580611808">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="461" y="224" key="SettingsEditor/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1598367519014" />
+    <state x="461" y="224" key="SettingsEditor/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602580611808" />
     <state x="461" y="224" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1597911966291" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1598517742225">
       <screen x="0" y="0" width="1920" height="1160" />
@@ -236,10 +166,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="667" y="182" width="585" height="795" key="find.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602156156879" />
-    <state x="616" y="270" key="run.anything.popup" timestamp="1602245128793">
+    <state x="845" y="310" key="ftp.server.browser" timestamp="1602582705647">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602245128793" />
+    <state x="845" y="310" key="ftp.server.browser/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602582705647" />
+    <state x="616" y="270" key="run.anything.popup" timestamp="1602578222899">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160/1920.0.1280.984@0.0.1920.1160" timestamp="1602578222899" />
     <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1597996919253" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1602251146612">
       <screen x="0" y="0" width="1920" height="1160" />
